@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/tomas/statnice-poznamky-materialy/","tags":["tomas","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/tomas/statnice-poznamky-materialy/","tags":["tomas","gardenEntry"]}
 ---
+
+Jednají se o poznámky a materiály ke přípravě ke státnicím. Mohou se zde vyskytovat chyby, v případě nalezení (nebo libovolné zpětné vazby) prosím dejte vědět tomasnguyen43@gmail.com, nebo můžete otevřít PR.
 
 ## Společná informatika
 #spolecna_informatika 
