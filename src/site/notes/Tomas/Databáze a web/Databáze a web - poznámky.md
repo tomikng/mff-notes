@@ -3,5 +3,4 @@
 ---
 
 ## Databáze
-#databaze 
 [[Tomas/Databáze a web/Databáze/Databáze - poznámky materiály\|Databáze - poznámky materiály]]

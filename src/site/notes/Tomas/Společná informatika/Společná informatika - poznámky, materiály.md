@@ -3,5 +3,4 @@
 ---
 
 ## Autogramy
-#autogramy
 [[Tomas/Společná informatika/autogramy/Autogramy - materiály\|Autogramy - materiály]]
