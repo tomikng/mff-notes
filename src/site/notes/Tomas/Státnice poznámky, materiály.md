@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tomas/statnice-poznamky-materialy/","tags":["tomas","gardenEntry"]}
+{"dg-publish":true,"permalink":"/tomas/statnice-poznamky-materialy/","tags":["tomas","gardenEntry","gardenEntry"]}
 ---
 
 ## Společná informatika
