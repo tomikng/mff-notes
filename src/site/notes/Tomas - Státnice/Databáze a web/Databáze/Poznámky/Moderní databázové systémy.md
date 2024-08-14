@@ -108,20 +108,169 @@ def reduce(key, values):
 
 ### NoSQL databáze
 
-1. **Typy a vlastnosti:**
-   - **Dokumentové databáze:** Ukládají data ve formě dokumentů (např. JSON, BSON). Každý dokument může obsahovat různé typy a množství dat.
-   - **Klíč-hodnota databáze:** Data jsou organizována do párů klíč-hodnota, kde klíč je unikátní identifikátor a hodnota může být libovolná data.
-   - **Sloupcové databáze:** Umožňují ukládání dat po sloupcích, což zlepšuje výkon při analytických dotazech na velkých datových sadách.
-   - **Grafové databáze:** Zaměřené na modelování a dotazování se na složité vztahy mezi daty, například vztahy v sociálních sítích.
+NoSQL databáze představují alternativu k tradičním relačním databázím, které se ukázaly být omezené při zpracování velkých objemů dat a různorodých datových struktur. NoSQL databáze jsou navrženy tak, aby byly škálovatelné a flexibilní, což je činí ideálními pro moderní aplikace, které pracují s obrovskými množstvími dat, často ve velmi rozdílných formátech.
 
-2. **Příklad rozdílů:**
-   - **Relace vs. Dokument:** V relačních databázích jsou data uložena v tabulkách s pevně danou strukturou, zatímco v dokumentových databázích mohou mít dokumenty různou strukturu a obsahovat složitější hierarchie.
+### Typy NoSQL databází a jejich vlastnosti
+
+1. **Dokumentové databáze**
+   - **Vlastnosti:** Ukládají data ve formě dokumentů, které jsou obvykle ve formátu JSON, BSON nebo XML. Dokumenty mohou obsahovat strukturovaná data (složitější hierarchie) a nevyžadují jednotnou strukturu mezi dokumenty.
+   - **Výhody:** Velká flexibilita, snadná správa struktury dat, dobré pro aplikace s měnícími se požadavky na datový model.
+   - **Nevýhody:** Může být obtížné spravovat vztahy mezi dokumenty, pokud jsou složité.
+   - **Příklad:** MongoDB, CouchDB.
+
+2. **Klíč-hodnota databáze**
+   - **Vlastnosti:** Data jsou organizována jako páry klíč-hodnota, kde klíč je unikátní identifikátor a hodnota může být jakýkoliv datový typ (string, objekt, binární data atd.).
+   - **Výhody:** Jednoduchý model, velmi rychlé dotazování díky přímému přístupu ke klíči, vhodné pro cache systémy nebo session storage.
+   - **Nevýhody:** Omezené možnosti dotazování, neschopnost zpracovávat složitější dotazy bez nadstavbových systémů.
+   - **Příklad:** Redis, DynamoDB.
+
+3. **Sloupcové databáze**
+   - **Vlastnosti:** Ukládají data po sloupcích místo po řádcích. Tento přístup je výhodný pro analytické dotazy, které často potřebují přístup k velkému množství dat z jednoho sloupce.
+   - **Výhody:** Vysoký výkon při čtení a analýze dat, efektivní uložení komprimovaných dat.
+   - **Nevýhody:** Méně efektivní při zápisu dat nebo při práci s řádkově orientovanými operacemi.
+   - **Příklad:** Cassandra, HBase.
+
+4. **Grafové databáze**
+   - **Vlastnosti:** Specializují se na ukládání a dotazování na data, která jsou propojena složitými vztahy, jako jsou například grafy (uzly a hrany).
+   - **Výhody:** Vynikající pro modelování a dotazování na komplexní vztahy mezi daty, například v sociálních sítích, doporučovacích systémech nebo při analýze sítí.
+   - **Nevýhody:** Může být obtížné pochopit a spravovat, omezený výkon při zpracování velkých objemů dat, které nejsou silně propojeny.
+   - **Příklad:** Neo4j, Amazon Neptune.
+
+### Ukázka rozdílů mezi jednotlivými modely na jednoduchém příkladu
+
+Představme si situaci, kdy máme e-shop, který uchovává informace o produktech, zákaznících a jejich objednávkách.
+
+1. **Dokumentová databáze:**
+   - **Struktura:** Každý produkt je uložen jako dokument (např. JSON), který obsahuje název, cenu, popis a seznam recenzí. Recenze jsou vloženy přímo do dokumentu produktu jako pole.
+   - **Výhoda:** Všechna data týkající se jednoho produktu jsou uložena pohromadě, což usnadňuje jejich načítání a práci s nimi.
+   - **Nevýhoda:** Pokud by některé produkty měly obrovské množství recenzí, dokument by se mohl stát velmi velkým.
+
+```json
+{
+ "product_id": "123",
+ "name": "Laptop",
+ "price": 1500,
+ "reviews": [
+   {"user": "Tomas", "rating": 5, "comment": "Great product!"},
+   {"user": "Eva", "rating": 4, "comment": "Good, but could be better."}
+ ]
+}
+```
+
+2. **Klíč-hodnota databáze:**
+   - **Struktura:** Každý produkt je uložen jako záznam s unikátním klíčem, například `product:123`, a hodnota může být jednoduchý JSON nebo serialized string.
+   - **Výhoda:** Velmi rychlé načítání dat, vhodné pro jednoduché aplikace, kde je hlavním účelem rychlý přístup ke konkrétním produktům.
+   - **Nevýhoda:** Omezené možnosti pokročilých dotazů.
+   
+```json
+"product:123" : "{\"name\": \"Laptop\", \"price\": 1500, \"reviews\": [{\"user\": \"Tomas\", \"rating\": 5}]}"
+```
+
+3. **Sloupcová databáze:**
+   - **Struktura:** Každý produkt může být reprezentován několika sloupci, například `product_id`, `name`, `price`, `reviews`, kde každý sloupec je uložen samostatně.
+   - **Výhoda:** Efektivní dotazování na konkrétní vlastnosti (například cena všech produktů), zejména v případě velkého množství dat.
+   - **Nevýhoda:** Méně intuitivní při práci s komplexními datovými strukturami, jako jsou recenze.
+
+```yaml
+Row key: product_id:123
+Columns:
+ name: "Laptop"
+ price: 1500
+ reviews: "[{\"user\": \"Tomas\", \"rating\": 5}]"
+```
+
+4. **Grafová databáze:**
+   - **Struktura:** Produkty, zákazníci a objednávky by byly reprezentovány jako uzly, zatímco vztahy mezi nimi (např. "koupil", "hodnotil") by byly reprezentovány jako hrany.
+   - **Výhoda:** Skvělé pro dotazování na komplexní vztahy, jako například "zákazníci, kteří koupili tento produkt, také hodnotili následující produkty".
+   - **Nevýhoda:** Nevhodné pro jednoduché dotazování nebo pokud je většina dat bez silných vztahů.
+
+```neo4j
+   (Tomas)-[bought]->(Laptop)
+   (Tomas)-[reviewed]->(Laptop)
+   (Eva)-[bought]->(Phone)
+```
 
 ### Grafové databáze
 
-1. **Datový model:**
-   - **Popis:** Grafová databáze ukládá data jako uzly (entity) a hrany (vztahy). Tento model je výkonný pro aplikace, kde jsou data silně propojena a kde je třeba provádět složité dotazy na vztahy mezi entitami.
-   - **Příklad:** Sociální síť, kde uzly reprezentují uživatele a hrany představují přátelství mezi nimi.
+#### Datový model
+
+Grafová databáze využívá datový model založený na grafech, kde data jsou reprezentována jako **uzly** (nodes) a **hrany** (edges). Tento model je ideální pro případy, kdy je důležité uchovávat a analyzovat složité vztahy mezi entitami. Grafy jsou výkonné pro dotazování na propojení a cesty mezi uzly, což je výhodné v mnoha reálných scénářích, jako jsou sociální sítě, doporučovací systémy, analýza sítí a další.
+
+- **Uzly (Nodes):** Uzly představují základní entity nebo objekty v databázi. Například v sociální síti by uzly představovaly uživatele.
+- **Hrany (Edges):** Hrany reprezentují vztahy mezi uzly. Tyto vztahy mohou být například "přátelství", "sleduje", "pracuje v" apod.
+- **Vlastnosti (Properties):** Oba uzly i hrany mohou mít vlastnosti, což jsou klíč-hodnota páry, které popisují charakteristiky entit a vztahů. Například uzel reprezentující uživatele může mít vlastnosti jako `jméno`, `věk` a `místo`, zatímco hrana může mít vlastnost `datum přátelství`.
+
+#### Příklad datového modelu
+
+Uvažujme jednoduchý příklad sociální sítě:
+
+- **Uzly:**
+  - Uživatel 1: `{"id": 1, "name": "Tomáš", "age": 30}`
+  - Uživatel 2: `{"id": 2, "name": "Eva", "age": 25}`
+  - Uživatel 3: `{"id": 3, "name": "Petr", "age": 28}`
+
+- **Hrany:**
+  - Přátelství mezi Tomášem a Evou: `{"from": 1, "to": 2, "relationship": "friends", "since": "2022-01-15"}`
+  - Přátelství mezi Tomášem a Petrem: `{"from": 1, "to": 3, "relationship": "friends", "since": "2021-10-20"}`
+  - Eva sleduje Petra: `{"from": 2, "to": 3, "relationship": "follows", "since": "2023-04-01"}`
+
+Grafový model tohoto příkladu by mohl být znázorněn takto:
+
+```plaintext
+(Tomáš)-[:FRIENDS {since: "2022-01-15"}]->(Eva)
+(Tomáš)-[:FRIENDS {since: "2021-10-20"}]->(Petr)
+(Eva)-[:FOLLOWS {since: "2023-04-01"}]->(Petr)
+```
+
+#### Třídy grafových dotazů
+
+Grafové databáze podporují různé typy dotazů, které jsou zaměřeny na zkoumání vztahů mezi uzly. Mezi hlavní třídy grafových dotazů patří:
+
+1. **Dotaz na sousední uzly (Neighborhood Query):**
+   - **Popis:** Tento dotaz vrací všechny uzly, které jsou přímo spojeny s daným uzlem jednou hranou.
+   - **Příklad:** "Kdo jsou přátelé Tomáše?"
+   - **Dotaz:** 
+```plaintext
+MATCH (Tomáš)-[:FRIENDS]->(friend)
+RETURN friend
+```
+
+2. **Dotaz na cestu (Path Query):**
+   - **Popis:** Tento dotaz hledá cestu nebo všechny cesty mezi dvěma uzly. Může být užitečný při zjišťování, zda existuje spojení mezi dvěma entitami.
+   - **Příklad:** "Existuje cesta mezi Tomášem a Petrem přes jejich přátele?"
+   - **Dotaz:** 
+```plaintext
+MATCH (Tomáš)-[:FRIENDS*]-(Petr)
+RETURN path
+```
+
+3. **Dotaz na nejkratší cestu (Shortest Path Query):**
+   - **Popis:** Tento dotaz hledá nejkratší cestu mezi dvěma uzly. Je užitečný pro optimalizaci různých procesů, jako je doporučování.
+   - **Příklad:** "Jaká je nejkratší cesta přátelství mezi Tomášem a Petrem?"
+   - **Dotaz:** 
+```plaintext
+MATCH p = shortestPath((Tomáš)-[:FRIENDS*]-(Petr))
+RETURN p
+```
+
+4. **Dotaz na vzory (Pattern Matching):**
+   - **Popis:** Tento dotaz umožňuje hledat složitější struktury a vzory v grafech, například komunitní struktury nebo cykly.
+   - **Příklad:** "Najdi všechny trojúhelníky přátel (komunity tří lidí, kde každý je přítel s každým)."
+   - **Dotaz:** 
+```plaintext
+MATCH (a)-[:FRIENDS]->(b)-[:FRIENDS]->(c)-[:FRIENDS]->(a)
+RETURN a, b, c
+```
+
+5. **Centralita (Centrality Query):**
+   - **Popis:** Tento dotaz měří, jak "centrální" je určitý uzel ve vztahu k ostatním uzlům. Centralita se často používá k nalezení nejvlivnějších nebo nejvýznamnějších uzlů v grafu.
+   - **Příklad:** "Kdo je nejvlivnějším uživatelem na základě počtu přátel?"
+   - **Dotaz:** 
+```plaintext
+MATCH (user)-[:FRIENDS]->(friends)
+RETURN user, COUNT(friends) AS influence
+ORDER BY influence DESC
+```
 
 ### Multi-model databáze a Polystore
 
