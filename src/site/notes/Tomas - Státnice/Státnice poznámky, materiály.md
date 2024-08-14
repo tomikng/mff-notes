@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tomas-statnice/statnice-poznamky-materialy/","tags":["tomas","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/tomas-statnice/statnice-poznamky-materialy/","tags":["tomas","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":""}
 ---
 
 # Příprava na státnice MFF UK
