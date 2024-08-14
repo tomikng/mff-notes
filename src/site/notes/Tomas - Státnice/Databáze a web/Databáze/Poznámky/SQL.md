@@ -20,22 +20,22 @@
 1. **Jednoduchý SQL dotaz:**
    - **Zadání:** Získat všechny objednávky od zákazníka "Novak".
    - **Dotaz:** 
-     ```sql
+```sql
 SELECT * 
 FROM Objednávky 
 JOIN Zákazníci ON Objednávky.ZákazníkID = Zákazníci.ZákazníkID 
 WHERE Zákazníci.Jméno = 'Novak';
-     ```
+```
 
 #### Agregace dat
 1. **Použití klauzulí pro seskupování a agregaci:**
    - **Příklad:** Počítat celkový počet objednávek za každý měsíc.
    - **Dotaz:**
-     ```sql
+```sql
 SELECT COUNT(*) AS PocetObjednavek, MONTH(Datum) AS Mesic
 FROM Objednávky
 GROUP BY MONTH(Datum);
-     ```
+```
 
 ### Vnořené dotazy
 1. **Použití vnořených dotazů a testy na NULL hodnotu:**
