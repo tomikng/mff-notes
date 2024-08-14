@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/tomas-statnice/statnice-poznamky-materialy/","tags":["tomas","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/tomas-statnice/statnice-poznamky-materialy/","tags":["tomas","gardenEntry"],"noteIcon":""}
 ---
 
 # Příprava na státnice MFF UK
-Jednají se o poznámky a materiály ke přípravě ke státnicím. Mohou se zde vyskytovat chyby, v případě nalezení (nebo libovolné zpětné vazby) prosím dejte vědět tomasnguyen43@gmail.com, nebo můžete otevřít PR.
+Jednají se o poznámky a materiály ke přípravě ke státnicím. Mohou se zde vyskytovat chyby, v případě nalezení (nebo libovolné zpětné vazby) prosím dejte vědět [na mail](malito:tomasnguyen43@gmail.com), nebo můžete otevřít PR.
 
 <mark style="background: #FF5582A6;">Poznámky jsou ve stavu in progress</mark>
 
