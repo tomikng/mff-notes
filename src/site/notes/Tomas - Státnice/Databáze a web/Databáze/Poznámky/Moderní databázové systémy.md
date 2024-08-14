@@ -76,17 +76,17 @@
      - **Map fáze:** Rozděluje úlohu na menší podúlohy a zpracovává každý záznam jednotlivě. Vstup je převeden na dvojice klíč-hodnota.
      - **Reduce fáze:** Shrnuje výsledky z *Map* fáze tak, že kombinuje všechny hodnoty přiřazené ke stejnému klíči.
    - **Příklad pseudokódu:**
-     ```python
-     map(key, value):
-        for each word in value:
-            emit(word, 1)
- 
-     reduce(key, values):
-        sum = 0
-        for each value in values:
-            sum += value
-        emit(key, sum)
-     ```
+```python
+map(key, value):
+	for each word in value:
+		emit(word, 1)
+
+reduce(key, values):
+	sum = 0
+	for each value in values:
+		sum += value
+	emit(key, sum)
+```
    - **Výhody:** Škálovatelnost, odolnost vůči chybám díky distribuci dat a úkolů.
    - **Nevýhody:** Omezená flexibilita, komplexnost implementace pro některé typy analýz.
 
