@@ -2,35 +2,52 @@
 {"dg-publish":true,"permalink":"/tomas-statnice/databaze-a-web/databaze/poznamky/moderni-databazove-systemy/","tags":["databaze","databaze_a_web","tomas"],"noteIcon":""}
 ---
 
-### Základní třídy moderních databázových systémů
-
-1. **Relational Databases (RDBMS):**
-   - **Popis:** Relační databázové systémy jsou založeny na relačním modelu, kde data jsou ukládána v tabulkách s přísně definovanými strukturami (schema-on-write). Každá tabulka obsahuje záznamy (řádky) a atributy (sloupce). Data jsou propojena pomocí primárních a cizích klíčů.
-   - **Vlastnosti:** Poskytují silnou konzistenci a ACID vlastnosti, což zaručuje, že data jsou vždy v konzistentním stavu. Typické operace zahrnují CRUD (Create, Read, Update, Delete).
-   - **Příklady:** MySQL, PostgreSQL, Oracle Database.
-
-2. **NoSQL Databases:**
-   - **Popis:** NoSQL databáze se odlišují od tradičních relačních databází svou schopností zpracovávat nestrukturovaná a semi-strukturovaná data. Nevyžadují přísnou strukturu a jsou navrženy pro horizontální škálování.
-   - **Typy NoSQL databází:**
-     - **Dokumentové databáze:** Ukládají data jako dokumenty (např. JSON, BSON). Každý dokument může mít jinou strukturu.
-       - **Příklad:** MongoDB, CouchDB.
-     - **Klíč-hodnota databáze:** Data jsou ukládána jako páry klíč-hodnota, což umožňuje velmi rychlé vyhledávání.
-       - **Příklad:** Redis, Riak.
-     - **Sloupcové databáze:** Ukládají data po sloupcích namísto po řádcích, což je výhodné pro analytické dotazy na velké datové sady.
-       - **Příklad:** Apache Cassandra, HBase.
-     - **Grafové databáze:** Specializované na ukládání a práci s daty, která jsou vzájemně propojená (uzly a hrany).
-       - **Příklad:** Neo4j, Amazon Neptune.
-   - **Vlastnosti:** Nabízejí vysokou dostupnost, horizontální škálování a jsou často optimalizovány pro rychlý přístup k velkým objemům dat.
-
-3. **NewSQL:**
-   - **Popis:** NewSQL databáze kombinují výhody relačních databází (RDBMS) s výhodami NoSQL systémů, přičemž zachovávají podporu pro SQL jako dotazovací jazyk a ACID vlastnosti.
-   - **Vlastnosti:** Nabízejí vysokou škálovatelnost a výkon, podobně jako NoSQL systémy, ale s konzistencí a strukturou známou z RDBMS.
-   - **Příklady:** Google Spanner, CockroachDB.
-
-4. **In-Memory Databases:**
-   - **Popis:** Tyto databáze ukládají data přímo v paměti (RAM), což umožňuje extrémně rychlý přístup k datům. Jsou využívány pro aplikace vyžadující velmi nízkou latenci a vysoký výkon.
-   - **Vlastnosti:** Velmi rychlý přístup k datům, ale vyšší náklady na provoz kvůli potřebě velkého množství paměti.
-   - **Příklady:** Redis (může fungovat jako klíč-hodnota databáze v paměti), SAP HANA.
+## Základní třídy moderních databázových systémů
+### Databázové modely
+-   První generace – navigační: Hierarchický model (stromy), Síťový
+    model (grafy)
+-   Druhá generace – relační
+-   Třetí generace – post-relační
+    -   Rozšíření relačního modelu – objektově-relační – objekty, třídy,
+        dědičnost
+    -   Nové modely navazující na populární technologie – objekty, XML,
+        NoSql (key/value, column, document, graph, …) – Big Data
+    -   Multi-model systém, NewSQL – zpátky k relacím
+### Relační model
+-   Ukládání objektů a jejich vzájemných asociací do <mark style="background: #FFF3A3A6;">tabulek</mark> (relací)
+-   Řádek v tabulce (člen relace) = objekt/asociace, sloupec (atribut) =
+    atribut objektu/asociace
+-   Schéma tabulky (relace) = název schématu + seznam atributů a jejich
+    typů
+-   Základní omezení integrity – unikátní identifikace řádku, simple
+    type atributy, hodnoty NULL (žádné "díry")
+-   Optimální pro některé aplikace, ale: nepodporuje <mark style="background: #FFF3A3A6;">složité datové typy</mark>
+    -   Normalizace dat do tabulkové podoby ovlivňuje výkon při
+        vyhledávání rozsáhlých, <mark style="background: #FFF3A3A6;">složitých a hierarchicky strukturovaných  dat</mark>
+    -   objevily se objektově orientované programovací jazyky – koncept uživatelsky definovaných tříd
+### Hierarchický model
+-   Data jsou uspořádána do záznamů, které se rekurzivně skládají z
+    jiných záznamů
+-   IBM’s IMS (Information Management System) - Jeden z prvních komerčně
+    dostupných DBMS.
+-   Les stromů – vztahy typu 1:n
+    -   První nezávislý = redundance – záznam nemůže být uložen ve 2
+        různých stromech, aniž by se duplikoval
+-   Zpracování dat: hierarchické, počínaje kořenem, hloubkové,
+    procházení zleva doprava
+    -   První ukládání na pásky – lineární přístup
+    -   Později (příchod disků) přímý přístup díky technikám hashování a
+        B-stromů
+### Síťový model
+-   Datové záznamy propojené binárními vztahy, blízko ER modelu
+    -   Zpracování dat: navigační primitiva, podle kterých se k záznamům
+        přistupuje, aktualizují se jeden po druhém; Relační
+        dotazovací jazyky: množinová orientace
+-   Uzly = typy záznamů – reprezentují entity reálného světa, mají
+    atomická nebo složená pole, záznam = datová jednotka (má
+    identifikátor)
+-   Hrany = typy množin – typ vztahu 1:n, seznam záznamů = hlavní
+    záznam + členové množiny
 
 ### Big Data
 
@@ -87,9 +104,7 @@
 ### Grafové databáze
 
 1. **Datový model:**
-   - **Popis:** Grafová databáze ukládá data jako uzly (
-
-entity) a hrany (vztahy). Tento model je výkonný pro aplikace, kde jsou data silně propojena a kde je třeba provádět složité dotazy na vztahy mezi entitami.
+   - **Popis:** Grafová databáze ukládá data jako uzly (entity) a hrany (vztahy). Tento model je výkonný pro aplikace, kde jsou data silně propojena a kde je třeba provádět složité dotazy na vztahy mezi entitami.
    - **Příklad:** Sociální síť, kde uzly reprezentují uživatele a hrany představují přátelství mezi nimi.
 
 ### Multi-model databáze a Polystore
