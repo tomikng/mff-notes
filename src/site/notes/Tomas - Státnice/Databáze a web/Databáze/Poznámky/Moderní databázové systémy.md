@@ -75,13 +75,29 @@
    - **MapReduce** je programovací model a související implementace pro zpracování velkých datových sad paralelně na velkém počtu strojů (clusterů). Skládá se ze dvou hlavních fází:
      - **Map fáze:** Rozděluje úlohu na menší podúlohy a zpracovává každý záznam jednotlivě. Vstup je převeden na dvojice klíč-hodnota.
      - **Reduce fáze:** Shrnuje výsledky z *Map* fáze tak, že kombinuje všechny hodnoty přiřazené ke stejnému klíči.
-   - **Příklad pseudokódu:**
+   - **Pseudokódu:**
 ```python
-map(key, value):
+# Map Function
+def map(key, value):
+    # Perform some operation on the value to generate intermediate key-value pairs
+    for element in process(value):
+        emit(intermediate_key, intermediate_value)
+
+# The framework automatically handles shuffling and sorting of intermediate key-value pairs
+
+# Reduce Function
+def reduce(intermediate_key, values):
+    # Aggregate or process the list of values for each intermediate key
+    result = aggregate(values)
+    emit(intermediate_key, result)
+```
+- Příklad (Četnost slov)
+```python
+def map(key, value):
 	for each word in value:
 		emit(word, 1)
 
-reduce(key, values):
+def reduce(key, values):
 	sum = 0
 	for each value in values:
 		sum += value
