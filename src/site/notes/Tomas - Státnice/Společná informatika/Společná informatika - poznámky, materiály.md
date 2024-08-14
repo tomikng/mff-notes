@@ -3,10 +3,11 @@
 ---
 
 ## Architektura počítačů a operačních systémů
+Struktura byla převzata od [Tomáše Slámy](slama.dev)
 - [Poznámky z Principu počítačů od Tomáše Slámy](https://slama.dev/poznamky/principy-pocitacu/)
 - [Počítačové systémy](https://cdn.tom-nguyen.dev/ps.pdf)
 
-- Základní architektura počítače. [🔗](https://slama.dev/poznamky-z-prednasky/principy-pocitacu/#zjednodu%C5%A1en%C3%A9-sch%C3%A9ma-po%C4%8D%C3%ADta%C4%8De) [🔗](https://cdn.tom-nguyen.dev/ps.pdf/ps.pdf#page=24)
+- Základní architektura počítače. [🔗](https://slama.dev/poznamky-z-prednasky/principy-pocitacu/#zjednodu%C5%A1en%C3%A9-sch%C3%A9ma-po%C4%8D%C3%ADta%C4%8De) [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=24)
 	- reprezentace a přístup k datům v paměti, adresa, adresový prostor
     - ukládání jednoduchých a složených datových typů
     - základní aritmetické a logické operace
@@ -23,7 +24,7 @@
 - Základní abstrakce, rozhraní a mechanizmy OS pro běh programů, sdílení prostředků a vstup/výstup. [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=97)
 	- neprivilegované (uživatelské) procesy
     - sdílení procesoru
-    - - procesy, vlákna, kontext procesu a vlákna
+    - procesy, vlákna, kontext procesu a vlákna
         - přepínání kontextu, kooperativní a preemptivní multitasking
         - plánování běhu procesů a vláken, stavy vlákna
     - sdílení paměti
