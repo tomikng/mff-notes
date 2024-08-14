@@ -3,6 +3,7 @@
 ---
 
 ### Konceptuální, logická a fyzická úroveň
+
 [[Tomas - Státnice/Databáze a web/Databáze/Exercises/University course enrolment/Exercise\|Exercise]]
 1. **Konceptuální úroveň**:
 	- **Popis:** Konceptuální úroveň představuje <mark style="background: #FFF3A3A6;">abstraktní pohled</mark> na data v databázi. Je to model, který reflektuje, jaké informace má systém uchovávat, <mark style="background: #FFF3A3A6;">ale nezabývá se detaily, jak budou data uložena či zpracovávána.</mark>
