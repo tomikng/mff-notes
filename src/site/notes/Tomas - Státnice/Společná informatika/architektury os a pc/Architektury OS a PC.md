@@ -1,13 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/tomas-statnice/spolecna-informatika/spolecna-informatika-poznamky-materialy/","tags":["tomas","spolecna_informatika"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/tomas-statnice/spolecna-informatika/architektury-os-a-pc/architektury-os-a-pc/","tags":["architektura_pc_a_os","spolecna_informatika","tomas"],"noteIcon":""}
 ---
-
-## Architektura počítačů a operačních systémů
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/tomas-statnice/spolecna-informatika/architektury-os-a-pc/architektury-os-a-pc/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
 
 Struktura byla převzata od [Tomáše Slámy](slama.dev) a přizpůsobeno na 2023/2024.
 - [Poznámky z Principu počítačů od Tomáše Slámy](https://slama.dev/poznamky/principy-pocitacu/)
@@ -45,18 +38,3 @@ Struktura byla převzata od [Tomáše Slámy](slama.dev) a přizpůsobeno na 202
     - základní sychronizační primitiva, jejich rozhraní a použití
 	    - zámky
         - aktivní a pasivní čekání
-
-</div></div>
-
-## Autogramy
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/tomas-statnice/spolecna-informatika/autogramy/autogramy-materialy/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-
-Poznámky od Martina Mareše - [[Tomas - Státnice/Společná informatika/autogramy/automaty.pdf|automaty]]
-Slidy od Vomlelové - [[slidy.pdf]]
-
-
-</div></div>
