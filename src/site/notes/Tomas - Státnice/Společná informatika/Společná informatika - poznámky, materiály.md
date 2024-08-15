@@ -16,7 +16,7 @@ Struktura byla převzata od [Tomáše Slámy](slama.dev) a přizpůsobeno na 202
 - Podpora pro běh operačního systému. [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=97)
 	- privilegovaný a neprivilegovaný režim procesoru
     - jádro operačního systému
-- Rozhraní periferních zařízení a jejich obsluha. [🔗](https://slama.dev/poznamky-z-prednasky/principy-pocitacu/#otro%C4%8Dina) [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=105)
+- Rozhraní periferních zařízení a jejich obsluha. [🔗](https://slama.dev/poznamky-z-prednasky/principy-pocitacu/#otro%C4%8Dina) [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=105) [[Tomas - Státnice/Společná informatika/architektury os a pc/Rozhraní periferních zařízení a jejich obsluha\|Rozhraní periferních zařízení a jejich obsluha]]
 	- Popsat roli řadiče zařízení při programem řízené obsluze zařízení (PIO), pro zadané adresy a funkce vstupních a výstupních portů implementovat programem řízenou obsluhu zadaného zařízení (myš, disk)
     - Popsat roli přerušení při programem řízené obsluze zařízení (PIO), na úrovni vykonávání instrukcí popsat reakci procesoru (hardware) a operačního systému (software) na žádost o přerušení
 - Základní abstrakce, rozhraní a mechanizmy OS pro běh programů, sdílení prostředků a vstup/výstup. [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=97)
