@@ -25,7 +25,7 @@ Vlákna (threads) jsou lehčí jednotky uvnitř procesu. Sdílejí stejný adres
   - **Preemptivní plánování**: Vlákna mohou být přerušena operačním systémem, aby bylo umožněno jinému vláknu běžet.
   - **Kooperativní plánování**: Vlákna musí dobrovolně uvolnit CPU pro jiná vlákna, podobně jako u kooperativního multitaskingu.
 
-#### 3. **Stavy vlákna**
+#### 3. **Stavy vlákna (a i procesů?)**
 
 Vlákna mohou během svého životního cyklu procházet několika stavy:
 
