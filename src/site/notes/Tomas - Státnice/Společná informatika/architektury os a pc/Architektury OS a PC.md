@@ -27,7 +27,7 @@ Struktura byla převzata od [Tomáše Slámy](slama.dev) a přizpůsobeno na 202
 	- neprivilegované (uživatelské) procesy
     - sdílení procesoru
 	    - procesy, vlákna, kontext procesu a vlákna
-        - přepínání kontextu, kooperativní a preemptivní multitasking
+        - přepínání kontextu, [[Tomas - Státnice/Společná informatika/architektury os a pc/Kooperativní vs. Preemptivní Multitasking\|Kooperativní vs. Preemptivní Multitasking]]
         - plánování běhu procesů a vláken, stavy vlákna
     - sdílení paměti
 	    - Vysvětlit rozdíl mezi virtuální a fyzickou adresou a identifikovat, zda se v zadaném kontextu či fragmentu kódu používá virtuální nebo fyzická adresa
