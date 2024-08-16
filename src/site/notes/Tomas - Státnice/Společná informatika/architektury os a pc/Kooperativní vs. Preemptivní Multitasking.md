@@ -7,6 +7,10 @@
 
 **Multitasking** v operačních systémech označuje schopnost systému provádět více úloh nebo procesů současně. Existují dva hlavní typy multitaskingu: **kooperativní multitasking** a **preemptivní multitasking**. Každý z těchto přístupů má svůj vlastní způsob, jak spravovat sdílení času procesoru mezi procesy.
 
+> [!faq]- Jak se docílí multitaskingu pokud máme pouze 1 CPU? 
+> CPU mění rychle jaké procesy bude vykonávat -> nikdy není v IDLE stavu. Dělá to tak rychle a často, že nám to dává iluzi, že to běží všechno současně
+> > [!example] Máme VSCode, posloucháme při tom hudbu a zároveň nám běží v pozadí hra.
+
 #### 1. **Kooperativní Multitasking**
 
 **Kooperativní multitasking** spoléhá na to, že každý proces dobrovolně uvolní řízení procesoru, aby umožnil běh dalších procesů. To znamená, že proces musí pravidelně kontrolovat, zda by neměl uvolnit CPU, a následně explicitně zavolat systémovou funkci k předání řízení.
