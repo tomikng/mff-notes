@@ -6,6 +6,8 @@
 > Vygenerováno pomocí ChatGPT
 
 **Multitasking** v operačních systémech označuje schopnost systému provádět více úloh nebo procesů současně. Existují dva hlavní typy multitaskingu: **kooperativní multitasking** a **preemptivní multitasking**. Každý z těchto přístupů má svůj vlastní způsob, jak spravovat sdílení času procesoru mezi procesy.
+{ #fd5c7f}
+
 
 > [!faq]- Jak se docílí multitaskingu pokud máme pouze 1 CPU? 
 > CPU mění rychle jaké procesy bude vykonávat -> nikdy není v IDLE stavu. Dělá to tak rychle a často, že nám to dává iluzi, že to běží všechno současně

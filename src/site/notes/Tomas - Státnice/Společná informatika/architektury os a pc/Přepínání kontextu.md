@@ -29,8 +29,6 @@ V kontextu počítačových systémů je **přepínání kontextu (context switc
 3. **Návrat k původnímu úkolu (obnovení kontextu)**: Po dokončení pomoci v kuchyni se vrátíte ke čtení a musíte si připomenout, kde jste skončili. To odpovídá obnovení uloženého kontextu procesu nebo vlákna, které bylo pozastaveno.
 
 #### Klíčové Body:
-- Přepínání kontextu je klíčové pro multitasking, umožňuje efektivní sdílení procesoru mezi více procesy nebo vlákny.
+- Přepínání kontextu je klíčové pro [[Tomas - Státnice/Společná informatika/architektury os a pc/Kooperativní vs. Preemptivní Multitasking#^fd5c7f\|multitasking]], umožňuje efektivní sdílení procesoru mezi více procesy nebo vlákny.
 - Přepínání kontextu zajišťuje, že důležité úkoly (procesy s vyšší prioritou) mohou být vykonány okamžitě, aniž by systém musel čekat na dokončení méně důležitých úkolů.
 - Přepínání kontextu je nezbytné pro správnou funkci moderních operačních systémů, které běží více úloh současně.
-
-Tento příklad vám pomůže lépe pochopit, jak funguje přepínání kontextu v reálném světě i v počítačových systémech.
