@@ -6,5 +6,4 @@
 [[Tomas - Státnice/Databáze a web/Databáze/Databáze - poznámky materiály\|Databáze - poznámky materiály]]
 
 ## Web
-### Doporučovací systémy
-[[Tomas - Státnice/Databáze a web/Web/Doporučovací systémy/Recommender Systems\|Recommender Systems]]
+
