@@ -38,10 +38,10 @@ Podle mě je to složené tak 80 % **pc systémy** a 20 % **Principy PC**
         - [[Tomas - Státnice/Společná informatika/architektury os a pc/Examples/Identifikace a význam komponent virtuální a fyzické adresy\|Na zadaném příkladu identifikovat a vysvětlit význam komponent virtuální a fyzické adresy (číslo stránky, číslo rámce, offset)]]
         - [[Tomas - Státnice/Společná informatika/architektury os a pc/Examples/Překlad adres\|Pro konkrétní adresy a obsah jednoúrovňové stránkovací tabulky řešit úlohy překladu adres]]
         - Vysvětlit roli virtuálních adresových prostorů v ochraně paměti procesů a vláken
-    - sdílení úložného prostoru
+    - [[Tomas - Státnice/Společná informatika/architektury os a pc/Sdílení úložného prostroru\|Sdílení úložného prostroru]]
 	    - soubory, analogie s adresovým prostorem
         - abstrakce a rozhraní pro práci se soubory
-- Paralelismus, vlákna a rozhraní pro jejich správu, synchronizace vláken. [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=112)
+- [[Tomas - Státnice/Společná informatika/architektury os a pc/Paralelní programování a synchronizace\|Paralelismus, vlákna a rozhraní pro jejich správu, synchronizace vláken.]]
 	- časově závislé chyby (race conditions)
     - kritická sekce, vzájemné vyloučení
     - základní sychronizační primitiva, jejich rozhraní a použití
