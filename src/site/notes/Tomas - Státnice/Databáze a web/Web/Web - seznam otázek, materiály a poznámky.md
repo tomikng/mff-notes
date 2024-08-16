@@ -21,7 +21,7 @@
 -  Uvést příklady standardních API dostupných v prohlížeči
 -  Vysvětlit a použít mechanizmy pro asynchronní programování v JavaScriptu: callbacks, promises, async/await, event loop
 
-### API webových aplikací a webové služby (bylo na minulém termínu, snad nebude znova)
+### API webových aplikací a webové služby (bylo na minulém termínu, snad nebude znova :D)
 -  Vysvětlit základní principy REST API
 -  Popsat úrovně REST API
 -  Popsat REST API pomocí OpenAPI
