@@ -13,8 +13,7 @@ Vítejte na mé stránce věnované přípravě ke státnicím na Matematicko-fy
 - **Stav poznámek**: Průběžně doplňováno a upravováno
 - **Zdroj**: Některé poznámky jsou generovány pomocí ChatGPT 🤖. Tyto poznámky jsou speciálně označeny a mohou pokrývat širší oblast témat než požadované, proto je důležité s nimi pracovat obezřetně.
 
-Pokud narazíte na chyby, nebo máte jakoukoliv zpětnou vazbu, neváhejte mě kontaktovat [emailem](mailto:tomasnguyen43@gmail.com), nebo můžete otevřít PR na GitHubu. 🛠️ Vaše pomoc je vítána!
-
+Pokud narazíte na chyby, nebo máte jakoukoliv zpětnou vazbu, neváhejte mě kontaktovat [emailem](mailto:tomasnguyen43@gmail.com), nebo můžete otevřít PR na GitHubu.
 ## 📊 Struktura materiálů
 
 ### Společná matematika
@@ -31,9 +30,6 @@ Pokud narazíte na chyby, nebo máte jakoukoliv zpětnou vazbu, neváhejte mě k
 🌐 Sekce zaměřená na vše, co se týká databází a webových technologií. Obsahuje jak teoretické poznámky, tak praktické příklady a otázky.
 
 [[Tomas - Státnice/Databáze a web/Databáze a web - poznámky\|Databáze a web - poznámky]]
-
-[[Tomas - Státnice/Databáze a web/Web/Web - seznam otázek, materiály a poznámky\|Web - seznam otázek, materiály a poznámky]]
-
 ## 🔗 Další užitečné zdroje
 - **GitHub repository**: [Odkaz na GitHub](https://github.com/tomikng/mff-notes)
 - **Studijní portál MFF UK**: [Odkaz na portál](https://www.mff.cuni.cz/cs/studenti/bakalarske-studium/statni-zaverecne-zkousky/bakalarske-statni-zkousky-studijniho-programu-informatika)

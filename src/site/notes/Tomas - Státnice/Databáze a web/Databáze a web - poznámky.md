@@ -6,4 +6,5 @@
 [[Tomas - Státnice/Databáze a web/Databáze/Databáze - poznámky materiály\|Databáze - poznámky materiály]]
 
 ## Web
+[[Tomas - Státnice/Databáze a web/Web/Web - seznam otázek, materiály a poznámky\|Web - seznam otázek, materiály a poznámky]]
 
