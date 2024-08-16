@@ -27,14 +27,14 @@ Podle mě je to složené tak 80 % **pc systémy** a 20 % **Principy PC**
 -  [[Tomas - Státnice/Společná informatika/architektury os a pc/Rozhraní periferních zařízení a jejich obsluha\|Rozhraní periferních zařízení a jejich obsluha]] [🔗](https://slama.dev/poznamky-z-prednasky/principy-pocitacu/#otro%C4%8Dina) [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=105)
 	- Popsat roli řadiče zařízení při programem řízené obsluze zařízení (PIO), pro zadané adresy a funkce vstupních a výstupních portů implementovat programem řízenou obsluhu zadaného zařízení (myš, disk)
     - Popsat roli přerušení při programem řízené obsluze zařízení (PIO), na úrovni vykonávání instrukcí popsat reakci procesoru (hardware) a operačního systému (software) na žádost o přerušení
-- Základní abstrakce, rozhraní a mechanizmy OS pro běh programů, sdílení prostředků a vstup/výstup. [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=97)
+- Základní abstrakce, rozhraní a mechanizmy OS pro běh programů, sdílení prostředků a vstup/výstup. [🔗](https://cunicz.sharepoint.com/:p:/s/NSWI170PCSystems/EcegExT3UclFiszQ0PLqWM4B26DDW76aqwy4UKHSlVGNkw?e=qMnjTx)
 	- neprivilegované (uživatelské) procesy
     - sdílení procesoru
 	    - procesy, vlákna, [[Tomas - Státnice/Společná informatika/architektury os a pc/Kontext vlákna a procesů\|Kontext vlákna a procesů]]
         - [[Tomas - Státnice/Společná informatika/architektury os a pc/Přepínání kontextu\|Přepínání kontextu]], [[Tomas - Státnice/Společná informatika/architektury os a pc/Kooperativní vs. Preemptivní Multitasking\|Kooperativní vs. Preemptivní Multitasking]]
         - [[Tomas - Státnice/Společná informatika/architektury os a pc/Plánování procesů a vláken\|Plánování procesů a vláken]]
-    - sdílení paměti
-	    - Vysvětlit rozdíl mezi virtuální a fyzickou adresou a identifikovat, zda se v zadaném kontextu či fragmentu kódu používá virtuální nebo fyzická adresa
+    - sdílení paměti 
+	    - Vysvětlit rozdíl mezi [[Tomas - Státnice/Společná informatika/architektury os a pc/Virtuální vs Fyzická paměť\|Virtuální vs Fyzická paměť]] a [[Tomas - Státnice/Společná informatika/architektury os a pc/Examples/Identifikace Virtuální vs Fyzické paměti\|identifikovat, zda se v zadaném kontextu či fragmentu kódu používá virtuální nebo fyzická adresa]]
         - Na zadaném příkladu identifikovat a vysvětlit význam komponent virtuální a fyzické adresy (číslo stránky, číslo rámce, offset)
         - Pro konkrétní adresy a obsah jednoúrovňové stránkovací tabulky řešit úlohy překladu adres
         - Vysvětlit roli virtuálních adresových prostorů v ochraně paměti procesů a vláken
