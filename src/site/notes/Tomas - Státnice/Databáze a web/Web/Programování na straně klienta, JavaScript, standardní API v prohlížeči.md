@@ -110,3 +110,4 @@ Event Loop je mechanismus v JavaScriptu, který umožňuje asynchronní operace 
 Event Loop zajišťuje, že například po dokončení asynchronní operace (jako je načtení dat z API) bude příslušná callback funkce vykonána, aniž by blokovala běh jiných částí kódu.
 
 V kombinaci tyto techniky umožňují efektivní a škálovatelné asynchronní programování v JavaScriptu, což je klíčové pro moderní webové aplikace.
+![Pasted image 20240816203550.png](/img/user/assets/img/Pasted%20image%2020240816203550.png)

@@ -4,9 +4,11 @@
 
 ## Externí Materiály
 [Procvičení JS DOM](https://www.jschallenger.com/javascript-dom-exercises/)
+[Procvičení JS Základu](https://www.jschallenger.com/javascript-basics)
 
 ## Otázky
-
+> [!DANGER] 
+> Nepokrývám zde všechny témata, jelikož jsou pro mě jasná, nebo si osobně myslím, že v dalším mém termínu (Září) nebudou.
 ### Principy www, HTML, XHTML, HTML5 a CSS
 -  Vytvořit statickou webovou stránku pomocí HTML, HTML5 v rozsahu osobního blogu, či e-shopu
 -  Na příkladu ukázat výhody HTML5 sémantických tagů
