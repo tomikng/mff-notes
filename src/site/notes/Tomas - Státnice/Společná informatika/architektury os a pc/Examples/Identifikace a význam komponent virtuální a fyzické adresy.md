@@ -20,6 +20,7 @@ Předpokládejme, že máme následující systém:
 Virtuální adresa je rozdělena do dvou hlavních částí:
 1. **Číslo stránky**: Identifikuje specifickou stránku ve virtuální paměti.
 2. **Offset**: Udává konkrétní pozici (offset) v rámci této stránky.
+![Pasted image 20240816171247.png](/img/user/assets/img/Pasted%20image%2020240816171247.png)
 
 ##### **Příklad Virtuální Adresy:**
 Virtuální adresa: `0x00032005` (v šestnáctkové soustavě)
