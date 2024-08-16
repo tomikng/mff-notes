@@ -38,7 +38,7 @@ Podle mě je to složené tak 80 % **pc systémy** a 20 % **Principy PC**
 - Základní abstrakce, rozhraní a mechanizmy OS pro běh programů, sdílení prostředků a vstup/výstup. [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=97)
 	- neprivilegované (uživatelské) procesy
     - sdílení procesoru
-	    - procesy, vlákna, kontext procesu a vlákna
+	    - procesy, vlákna, [[Tomas - Státnice/Společná informatika/architektury os a pc/Kontext vlákna a procesů\|Kontext vlákna a procesů]]
         - přepínání kontextu, [[Tomas - Státnice/Společná informatika/architektury os a pc/Kooperativní vs. Preemptivní Multitasking\|Kooperativní vs. Preemptivní Multitasking]]
         - [[Tomas - Státnice/Společná informatika/architektury os a pc/Plánování procesů a vláken\|Plánování procesů a vláken]]
     - sdílení paměti
