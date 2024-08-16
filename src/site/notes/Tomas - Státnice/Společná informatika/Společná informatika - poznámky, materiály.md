@@ -19,7 +19,7 @@ Podle mě je to složené tak 80 % **pc systémy** a 20 % **Principy PC**
 ## Otázky
 
 > [!info]
-> Jsou jen odkazy na části, které mi přišli jako netriviální. (Naštěstí je toho dost :D)
+> Jsou jen odkazy na části, o kterých jsem nevěděl moc dopodrobna. (Naštěstí je toho dost :D)
 > Struktura byla převzata od [Tomáše Slámy](slama.dev) a přizpůsobeno na 2023/2024.
 
 

@@ -2,9 +2,11 @@
 {"dg-publish":true,"permalink":"/tomas-statnice/spolecna-informatika/architektury-os-a-pc/planovani-procesu-a-vlaken/","tags":["architektura_pc_a_os","spolecna_informatika","tomas"],"noteIcon":""}
 ---
 
-### Plánování běhu procesů a vláken
 
 Plánování běhu procesů a vláken (scheduling) je jedním z klíčových úkolů operačního systému. Jeho úkolem je rozhodnout, který proces nebo vlákno by mělo být v daném okamžiku přiděleno k běhu na procesoru. Existují různé metody plánování, které mohou být použity v závislosti na požadavcích a vlastnostech systému.
+
+> [!NOTE] ChatGPT
+> Vygenerováno pomocí ChatGPT
 
 #### 1. **Plánování procesů**
 
