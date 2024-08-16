@@ -5,6 +5,7 @@
 Struktura byla převzata od [Tomáše Slámy](slama.dev) a přizpůsobeno na 2023/2024.
 - [Poznámky z Principu počítačů od Tomáše Slámy](https://slama.dev/poznamky/principy-pocitacu/)
 - [Počítačové systémy](https://cdn.tom-nguyen.dev/ps.pdf)
+- [Playlist na YTB ohledně OS](https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O)
 
 - Základní architektura počítače. [🔗](https://slama.dev/poznamky-z-prednasky/principy-pocitacu/#zjednodu%C5%A1en%C3%A9-sch%C3%A9ma-po%C4%8D%C3%ADta%C4%8De) [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=24)
 	- reprezentace a přístup k datům v paměti, adresa, adresový prostor [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=57)
