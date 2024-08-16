@@ -10,7 +10,12 @@
 	
 Podle mě je to složené tak 80 % **pc systémy** a 20 % **Principy PC**
 ## Otázky
-Struktura byla převzata od [Tomáše Slámy](slama.dev) a přizpůsobeno na 2023/2024.
+
+> [!info]
+> Jsou jen odkazy na části, které mi přišli jako netriviální. (Naštěstí je toho dost :D)
+> Struktura byla převzata od [Tomáše Slámy](slama.dev) a přizpůsobeno na 2023/2024.
+
+
 - Základní architektura počítače. [🔗](https://slama.dev/poznamky-z-prednasky/principy-pocitacu/#zjednodu%C5%A1en%C3%A9-sch%C3%A9ma-po%C4%8D%C3%ADta%C4%8De) [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=24)
 	- reprezentace a přístup k datům v paměti, adresa, adresový prostor [🔗](https://cdn.tom-nguyen.dev/ps.pdf#page=57)
     - ukládání jednoduchých a složených datových typů [🔗](https://cdn.tom-nguyen.dev/Architektura%20poc%CC%8Ci%CC%81tac%CC%8Cu%CC%8A%20a%20operac%CC%8Cni%CC%81ch%20syste%CC%81mu%CC%8A.pdf#page=2)
@@ -28,7 +33,7 @@ Struktura byla převzata od [Tomáše Slámy](slama.dev) a přizpůsobeno na 202
     - sdílení procesoru
 	    - procesy, vlákna, kontext procesu a vlákna
         - přepínání kontextu, [[Tomas - Státnice/Společná informatika/architektury os a pc/Kooperativní vs. Preemptivní Multitasking\|Kooperativní vs. Preemptivní Multitasking]]
-        - plánování běhu procesů a vláken, stavy vlákna
+        - [[Tomas - Státnice/Společná informatika/architektury os a pc/Plánování procesů a vláken\|Plánování procesů a vláken]]
     - sdílení paměti
 	    - Vysvětlit rozdíl mezi virtuální a fyzickou adresou a identifikovat, zda se v zadaném kontextu či fragmentu kódu používá virtuální nebo fyzická adresa
         - Na zadaném příkladu identifikovat a vysvětlit význam komponent virtuální a fyzické adresy (číslo stránky, číslo rámce, offset)
