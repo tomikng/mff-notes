@@ -7,6 +7,8 @@
 
 **Stránkování** je technika správy paměti, která eliminuje potřebu spojitého přidělování fyzické paměti. Místo toho jsou virtuální adresní prostor i fyzická paměť rozděleny na stejně velké bloky, které nazýváme **stránky** (v případě virtuální paměti) a **rámce** (v případě fyzické paměti).
 
+![Pasted image 20240816163536.png](/img/user/assets/img/Pasted%20image%2020240816163536.png)
+
 #### **Základní Pojmy Stránkování:**
 
 1. **Stránky a Rámce:**
@@ -20,6 +22,8 @@
 
 3. **Překlad Adres:**
    - Procesor generuje **virtuální adresu**, která je rozdělena na dvě části: **číslo stránky** a **offset**. Číslo stránky se používá k indexování do stránkovací tabulky, aby se našlo odpovídající číslo rámce. K základní adrese rámce se přičte offset a vznikne tak fyzická adresa.
+
+![Pasted image 20240816163837.png](/img/user/assets/img/Pasted%20image%2020240816163837.png)
 
 #### **Příklad: Stránkování v Práci**
 
