@@ -7,6 +7,7 @@
 [Procvičení JS Základu](https://www.jschallenger.com/javascript-basics)
 
 ## Otázky
+
 > [!DANGER] Pozor
 > Nepokrývám zde všechny témata, jelikož jsou pro mě jasná, nebo si osobně myslím, že v dalším mém termínu (Září) nebudou.
 ### Principy www, HTML, XHTML, HTML5 a CSS
@@ -27,24 +28,24 @@
 -  Vysvětlit základní principy REST API
 -  Popsat úrovně REST API
 -  Popsat REST API pomocí OpenAPI
--  Položit dotaz v GraphQL, popsat výhody a nevýhody GraphQL
+-  [[Tomas - Státnice/Databáze a web/Web/GraphQL\|Položit dotaz v GraphQL, popsat výhody a nevýhody GraphQL]]
 
-### Single-page aplikace, udržování stavu a uživatelské relace
+### Single-page aplikace, udržování stavu a uživatelské relace (Popsat REACT)
 -  Vysvětlit princip fungování single-page aplikací
 -  Popsat možnosti udržování stavu pro webové aplikace v kontextu single-page aplikací
 
-### Programování na straně serveru, CGI a CGI-like aplikace
+### Programování na straně serveru, [[Tomas - Státnice/Databáze a web/Web/CGI\|CGI a CGI-like aplikace]]
 -  Vysvětlit fungování CGI a CGI-like aplikací
 -  Popsat možnosti udržování stavu pro webové aplikace a využití uživatelských relací
--  Na příkladu demonstrovat PHP interleaving
--  Vytvořit jednoduchou stránku v PHP, s využitím HTTP wrapperu a připojením k SQL databázi
+-  Na příkladu demonstrovat [[Tomas - Státnice/Databáze a web/Web/Exercises/PHP#PHP Interleaving\|PHP interleaving]]
+-  [[Tomas - Státnice/Databáze a web/Web/Exercises/PHP#Příklad PHP stránky\|Vytvořit jednoduchou stránku v PHP, s využitím HTTP wrapperu a připojením k SQL databázi]]
 
 ### Základy bezpečnosti webových aplikací
 -  Vysvětlit vztah HTTPS a HTTP, popsat výhody
 -  Na příkladu (JWT) vysvětlit použití autentizačních tokenů
 -  Identifikovat a popsat základní bezpečností rizika webových aplikací
 
-### [[Tomas - Státnice/Databáze a web/Web/Doporučovací systémy/Recommender Systems\|Doporučovací systémy]]
+### [[Tomas - Státnice/Databáze a web/Web/Doporučovací systémy/Recommender Systems\|Doporučovací systémy]] [🔗](https://www.ksi.mff.cuni.cz/~peska/vyuka/nswi166/)
 -  Vysvětlit typické workflow doporučovacích systémů a popsat typické vstupy a výstupy
 -  Popsat problémy, které způsobuje dynamičnost doporučovacího procesu (např. cold start, new item problem, online model updates)
 -  Vysvětlit princip fungování, výhody a nevýhody kolaborativního filtrování
@@ -53,7 +54,7 @@
 -  Vysvětlit cíle, rozdíly a omezení v offline/online/user-studies hodnocení doporučovacích systémů a uvést typické hodnotící metriky
 
 ### Vyhledávání na webu a v multimediálních databázích
--  Popsat booleovské a vektorové modely, word2vec
+-  [[Tomas - Státnice/Databáze a web/Web/Booleovský model\|Popsat booleovské a vektorové modely, word2vec]]
 -  Popsat vyhledávání v hypertextu, ranking, PageRank
 -  Vysvětlit optimalizaci webových stránek pro vyhledávače
 -  Popsat metrické indexování podobnosti (filtrování pomocí pivotů, maticové, stromové, hašované a hybridní indexy)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tomas-statnice/statnice-poznamky-materialy/","tags":["tomas","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/tomas-statnice/statnice-poznamky-materialy/","tags":["tomas","gardenEntry"],"noteIcon":""}
 ---
 
 # 🎓 Příprava na státnice MFF UK 2023/2024
@@ -16,10 +16,10 @@ Vítejte na mé stránce věnované přípravě ke státnicím na Matematicko-fy
 Pokud narazíte na chyby, nebo máte jakoukoliv zpětnou vazbu, neváhejte mě kontaktovat [emailem](mailto:tomasnguyen43@gmail.com), nebo můžete otevřít PR na GitHubu.
 ## 📊 Struktura materiálů
 
-### Společná matematika
+### 🧮 Společná matematika
 📌 Tato sekce obsahuje poznámky a materiály ke všem matematickým předmětům, které jsou společné pro přípravu na státnice. Momentálně pracuji na doplnění chybějících částí.
 
-[[Společná matematika - poznámky, materiály\|Společná matematika - poznámky, materiály]]
+[[Tomas - Státnice/Společná matematika/Společná matematika - poznámky, materiály\|Společná matematika - poznámky, materiály]]
 
 ### 💻 Společná informatika
 🔍 Zde naleznete poznámky, materiály a otázky z předmětů zaměřených na informatiku, které jsou společné pro státnice.
