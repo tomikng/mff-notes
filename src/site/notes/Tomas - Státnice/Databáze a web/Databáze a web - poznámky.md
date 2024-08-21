@@ -8,3 +8,5 @@
 ## Web
 [[Tomas - Státnice/Databáze a web/Web/Web - seznam otázek, materiály a poznámky\|Web - seznam otázek, materiály a poznámky]]
 
+## Datovy management
+[[Tomas - Státnice/Databáze a web/Datovy management/Datový management - poznamky a materialy\|Datový management - poznamky a materialy]]
