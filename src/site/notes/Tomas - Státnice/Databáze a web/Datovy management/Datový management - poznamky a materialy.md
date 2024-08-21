@@ -8,3 +8,4 @@ https://jakub.xn--klmek-0sa.com/nprg036
 ## Datove formaty
 [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Základní typy strukturovaných dat\|Základní typy strukturovaných dat]]
 [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Datovy model, datovy format, datove schema\|Datovy model, datovy format, datove schema]]
+[[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Modely a formáty pro grafová data - RDF a Labeled Property Graph\|Modely a formáty pro grafová data - RDF a Labeled Property Graph]]

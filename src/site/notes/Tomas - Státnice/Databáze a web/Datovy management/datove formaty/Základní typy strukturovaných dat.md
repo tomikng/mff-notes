@@ -89,6 +89,8 @@ V tomto JSON objektu:
 
 ### 4. **RDF (Resource Description Framework)**
 
+vice o RDF [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Modely a formáty pro grafová data - RDF a Labeled Property Graph\|Modely a formáty pro grafová data - RDF a Labeled Property Graph]]
+
 **Struktura**:
 - RDF je rámec pro reprezentaci informací o zdrojích na webu. RDF data jsou typicky vyjádřena jako trojice, kde každá trojice se skládá z předmětu, predikátu a objektu. Tyto trojice mohou být reprezentovány v různých syntaxích, jako je XML-založené RDF/XML nebo čitelnější Turtle.
 
