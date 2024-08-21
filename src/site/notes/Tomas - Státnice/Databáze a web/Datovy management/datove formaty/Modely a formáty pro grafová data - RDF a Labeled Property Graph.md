@@ -2,19 +2,23 @@
 {"dg-publish":true,"permalink":"/tomas-statnice/databaze-a-web/datovy-management/datove-formaty/modely-a-formaty-pro-grafova-data-rdf-a-labeled-property-graph/","tags":["databaze_a_web","databaze","tomas"],"noteIcon":""}
 ---
 
-## RDF
-
-**1. RDF (Resource Description Framework)**
+> [!NOTE] ChatGPT
+> Vygenerováno pomocí ChatGPT na zaklade prezentaci od Klimky
+## RDF (Resource Description Framework)
 **Popis a použití:**
-- RDF je model pro reprezentaci informací o zdrojích na webu, který používá **grafy**, kde každý **uzel** představuje entitu (subjekt nebo objekt) a hrana představuje vztah mezi těmito entitami (predikát).
-- RDF se používá pro modelování komplexních datových struktur a propojení dat napříč různými zdroji, zejména na sémantickém webu.
-  
-**Serializace RDF:**
-- RDF data mohou být serializována v různých formátech, včetně:
-  - **Turtle**: Čitelný formát pro lidi, vhodný pro zápis RDF dat.
-  - **RDF/XML**: XML-based serializace RDF, vhodná pro aplikace vyžadující strukturovaný XML formát.
-  - **JSON-LD**: JSON serializace RDF, často používaná v moderních webových aplikacích.
+- RDF je model grafových dat, který reprezentuje informace jako sadu trojic (subjekt, predikát, objekt). Tento model se široce používá pro sémantické modelování dat a propojení dat z různých zdrojů na webu.
+![Pasted image 20240821133001.png](/img/user/assets/img/Pasted%20image%2020240821133001.png)
+![Pasted image 20240821140537.png](/img/user/assets/img/Pasted%20image%2020240821140537.png)
+### Formáty serializace dat
+RDF model lze serializovat v několika formátech, z nichž každý slouží různým účelům a použitím.
 
+#### 1. Turtle (Terse RDF Triple Language)
+Turtle je lidsky čitelný formát serializace RDF, který je kompaktní a snadno pochopitelný, zejména pro ty, kteří se orientují v syntaxi RDF.
+![Pasted image 20240821134429.png](/img/user/assets/img/Pasted%20image%2020240821134429.png)
+![Pasted image 20240821134515.png](/img/user/assets/img/Pasted%20image%2020240821134515.png)
+![Pasted image 20240821134555.png](/img/user/assets/img/Pasted%20image%2020240821134555.png)
+![Pasted image 20240821134839.png](/img/user/assets/img/Pasted%20image%2020240821134839.png)
+![Pasted image 20240821134951.png](/img/user/assets/img/Pasted%20image%2020240821134951.png)
 **Příklad:**
 ```turtle
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -22,69 +26,97 @@
 <http://example.org/person/JohnDoe> 
   a foaf:Person ;
   foaf:name "John Doe" ;
-  foaf:age 28 .
+  foaf:age 28 ;
+  foaf:knows <http://example.org/person/JaneDoe> .
 ```
 
-**2. Labeled Property Graph (LPG)**
-
-**Popis a použití:**
-- Labeled Property Graph je model grafových dat, kde uzly a hrany mohou mít štítky (labels) a vlastnosti (properties). Tento model se často používá v databázích jako Neo4j.
-- LPG je vhodný pro aplikace, které vyžadují rychlý přístup k datům a kde je důležité provádět složité dotazy nad propojenými daty.
+#### 2. N-Triples
+N-Triples je textový formát pro kódování RDF grafů, navržený tak, aby byl jednoduchý a snadno parsovatelný.
 
 **Příklad:**
-- Uzly mohou reprezentovat osoby a hrany vztahy mezi nimi. Např. uzel s vlastnostmi jako `jméno: "Jan"` a hrana s vlastností `od: "2020-01-01"`.
+```ntriples
+<http://example.org/person/JohnDoe> <http://xmlns.com/foaf/0.1/name> "John Doe" .
+<http://example.org/person/JohnDoe> <http://xmlns.com/foaf/0.1/age> "28"^^<http://www.w3.org/2001/XMLSchema#integer> .
+```
+![Pasted image 20240821134216.png](/img/user/assets/img/Pasted%20image%2020240821134216.png)
+#### 3. TriG
+TriG rozšiřuje Turtle o podporu pojmenovaných grafů, což umožňuje seskupování trojic do různých grafů v rámci jednoho dokumentu.
 
-**Porovnání RDF a LPG:**
-- **RDF** je více standardizovaný a podporovaný na webu, vhodný pro sémantická data a propojení různých datových zdrojů.
-- **LPG** je flexibilnější a efektivnější pro dotazování a manipulaci s daty v rámci jedné aplikace nebo databáze.
+**Příklad:**
+```trig
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-### Slovník pro definici slovníků v RDF - RDF Schema (RDFS)
+{
+  <http://example.org/person/JohnDoe> 
+    a foaf:Person ;
+    foaf:name "John Doe" ;
+    foaf:age 28 ;
+    foaf:knows <http://example.org/person/JaneDoe> .
+}
 
+GRAPH <http://example.org/graph1> {
+  <http://example.org/person/JaneDoe>
+    a foaf:Person ;
+    foaf:name "Jane Doe" ;
+    foaf:age 26 .
+}
+```
+
+#### 4. N-Quads
+N-Quads je rozšíření N-Triples, které přidává podporu pojmenovaných grafů, což umožňuje přidání názvu grafu vedle subjektu, predikátu a objektu.
+
+**Příklad:**
+```nquads
+<http://example.org/person/JohnDoe> <http://xmlns.com/foaf/0.1/name> "John Doe" <http://example.org/graph1> .
+<http://example.org/person/JohnDoe> <http://xmlns.com/foaf/0.1/age> "28"^^<http://www.w3.org/2001/XMLSchema#integer> <http://example.org/graph1> .
+```
+
+### Srovnání s Labeled Property Graph (LPG)
 **Popis a použití:**
-- RDF Schema (RDFS) je rozšíření RDF, které umožňuje definovat třídy a vlastnosti pro RDF data, což umožňuje organizaci a kategorizaci dat.
-- RDFS se používá k definování ontologií, které poskytují kontext a význam pro data na sémantickém webu.
+- RDF používá standardizovaný model, který je široce podporován na webu, a je zvláště užitečný pro propojení dat napříč různými doménami.
+- LPG (Labeled Property Graph) je flexibilnější model, často používaný v grafových databázích jako Neo4j, kde uzly a hrany mohou mít vlastnosti a štítky.
 
+**Klíčové rozdíly:**
+- **RDF** je více vhodné pro aplikace, které vyžadují interoperabilitu dat a sémantickou bohatost.
+- **LPG** je lepší pro scénáře, kde je důležitý výkon a složité dotazování v rámci jedné aplikace.
+
+### RDF Schema (RDFS)
+**Popis a použití:**
+- RDF Schema je rozšíření RDF, které umožňuje definovat třídy, vlastnosti a jejich vztahy, což usnadňuje vytvoření strukturovaných a organizovaných RDF dat.
+![Pasted image 20240821135523.png](/img/user/assets/img/Pasted%20image%2020240821135523.png)
+![Pasted image 20240821140012.png](/img/user/assets/img/Pasted%20image%2020240821140012.png)
 **Příklad:**
 ```turtle
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Person a rdfs:Class ;
-  rdfs:label "Person" .
+  rdfs:label "Osoba" .
 
 ex:knows a rdf:Property ;
   rdfs:domain ex:Person ;
   rdfs:range ex:Person .
 ```
-V tomto příkladu je `ex:Person` definována jako třída a `ex:knows` jako vlastnost, která spojuje dvě osoby.
 
-### Jazyky pro dotazování a transformaci grafových dat - SPARQL a Cypher
+![Pasted image 20240821140227.png](/img/user/assets/img/Pasted%20image%2020240821140227.png)
+### Dotazovací jazyky
+#### 1. SPARQL
+- SPARQL je dotazovací jazyk pro RDF, který umožňuje dotazování nad RDF datovými sadami a manipulaci s těmito daty.
 
-**1. SPARQL**
-
-**Popis a použití:**
-- SPARQL je dotazovací jazyk pro RDF data, který umožňuje extrakci a manipulaci s informacemi uloženými v RDF formátu.
-- SPARQL se často používá na sémantickém webu pro dotazování nad RDF daty.
-
-**Příklad dotazu:**
+**Příklad:**
 ```sparql
 SELECT ?name WHERE {
   ?person a ex:Person ;
           ex:name ?name .
 }
 ```
-Tento dotaz vrátí všechna jména osob v datasetu.
 
-**2. Cypher**
+#### 2. Cypher
+- Cypher je dotazovací jazyk pro Labeled Property Graphs, používaný především v databázi Neo4j.
 
-**Popis a použití:**
-- Cypher je dotazovací jazyk pro Labeled Property Graph model, zejména používaný v databázi Neo4j.
-- Cypher umožňuje jednoduché a efektivní dotazování a manipulaci s grafovými daty.
-
-**Příklad dotazu:**
+**Příklad:**
 ```cypher
 MATCH (p:Person)-[:KNOWS]->(friend)
 RETURN p.name, friend.name
 ```
-Tento dotaz vrátí všechny dvojice osob, kde jedna zná druhou.
 
-Tyto informace jsou podrobně diskutovány v dokumentu na stránkách **24-28** pro RDF a LPG, **29-30** pro RDF Schema a **28-30** pro SPARQL a Cypher .
+Tato verze lépe odpovídá obsahu vašeho PDF, zejména se zaměřením na formáty serializace Turtle, TriG, N-Triples a N-Quads, místo RDF/XML.
