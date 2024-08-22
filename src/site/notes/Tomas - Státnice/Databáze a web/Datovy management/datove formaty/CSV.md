@@ -43,6 +43,7 @@
 4. **Transformace do RDF**:
    - **Výchozí konverze**: CSVW umožňuje automatickou transformaci CSV do RDF, což je formát vhodný pro výměnu dat na webu.
    - **Přizpůsobená konverze**: Umožňuje specifikaci vlastních pravidel pro konverzi, např. použití URI šablon.
+   [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/examples/Priklad CSVW -> RDF\|Priklad CSVW -> RDF]]
    ![Pasted image 20240822142131.png](/img/user/Pasted%20image%2020240822142131.png)
 
 5. **Použití CSV na Webu**:
