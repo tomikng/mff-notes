@@ -22,7 +22,7 @@
 
 ### **CSV na Webu (CSVW)**
 ![Pasted image 20240822140946.png](/img/user/assets/img/Pasted%20image%2020240822140946.png)
-![Pasted image 20240822141031.png](/img/user/Pasted%20image%2020240822141031.png)
+![Pasted image 20240822141031.png](/img/user/assets/img/Pasted%20image%2020240822141031.png)
 1. **Co je CSV na Webu?**:
    - **Rozšíření CSV**: CSVW je standard W3C, který rozšiřuje možnosti CSV tím, že umožňuje anotaci tabulek pomocí JSON-LD metadat.
    - **Anotace**: Anotace slouží k validaci dat, transformaci do jiných formátů (např. JSON, RDF) a k zajištění konzistence dat.
@@ -36,15 +36,15 @@
    - **@context**: Obsahuje informace o použitém kontextu, např. základní URL a výchozí jazyk.
    - **Tabulka**: Popisuje jednotlivé tabulky v rámci tabulkové skupiny, např. jejich URL, název, klíčová slova.
    - **Schéma tabulky**: Určuje strukturu dat v tabulce, včetně názvů sloupců, datových typů a klíčů.
-   ![Pasted image 20240822141211.png](/img/user/Pasted%20image%2020240822141211.png)
-   ![Pasted image 20240822141232.png](/img/user/Pasted%20image%2020240822141232.png)
-   ![Pasted image 20240822141521.png](/img/user/Pasted%20image%2020240822141521.png)
+   ![Pasted image 20240822141211.png](/img/user/assets/img/Pasted%20image%2020240822141211.png)
+   ![Pasted image 20240822141232.png](/img/user/assets/img/Pasted%20image%2020240822141232.png)
+   ![Pasted image 20240822141521.png](/img/user/assets/img/Pasted%20image%2020240822141521.png)
 
 4. **Transformace do RDF**:
    - **Výchozí konverze**: CSVW umožňuje automatickou transformaci CSV do RDF, což je formát vhodný pro výměnu dat na webu.
    - **Přizpůsobená konverze**: Umožňuje specifikaci vlastních pravidel pro konverzi, např. použití URI šablon.
    [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/examples/Priklad CSVW -> RDF\|Priklad CSVW -> RDF]]
-   ![Pasted image 20240822142131.png](/img/user/Pasted%20image%2020240822142131.png)
+   ![Pasted image 20240822142131.png](/img/user/assets/img/Pasted%20image%2020240822142131.png)
 
 5. **Použití CSV na Webu**:
    - **Validace a anotace**: Umožňuje kontrolu správnosti dat a jejich anotaci pro další zpracování.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tomas-statnice/databaze-a-web/datovy-management/datove-formaty/modely-a-formaty-pro-grafova-data-rdf-a-labeled-property-graph/","tags":["databaze_a_web","databaze","tomas"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/tomas-statnice/databaze-a-web/datovy-management/datove-formaty/modely-a-formaty-pro-grafova-data-rdf-a-labeled-property-graph/","tags":["databaze_a_web","tomas","datovy_management"],"noteIcon":""}
 ---
 
 > [!NOTE] ChatGPT

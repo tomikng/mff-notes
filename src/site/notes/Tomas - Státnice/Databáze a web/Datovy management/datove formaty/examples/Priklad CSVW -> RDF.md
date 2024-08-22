@@ -4,7 +4,8 @@
 
 > [!NOTE] ChatGPT
 > Vygenerováno pomocí ChatGPT na základě přednášek od Klimka
-### **Example CSV File (books.csv)**
+
+### **Step-by-Step Mapping with Annotations**
 
 ```csv
 id,title,author,published_date,price
@@ -13,9 +14,9 @@ id,title,author,published_date,price
 3,1984,George Orwell,1949-06-08,6.99
 ```
 
-### **Step 1: Define Metadata Using JSON-LD**
+### **Step 1: Define JSON-LD Metadata with Mappings**
 
-This metadata file describes the structure of the `books.csv` file and how to transform it into RDF.
+Here, we define the metadata, specifying how each column in the CSV is mapped to RDF properties.
 
 ```json
 {
@@ -26,27 +27,33 @@ This metadata file describes the structure of the `books.csv` file and how to tr
       {
         "name": "id",
         "titles": "id",
-        "datatype": "integer"
+        "datatype": "integer",
+        "propertyUrl": "http://example.org/schema/id",
+        "valueUrl": "http://example.org/books/{id}"
       },
       {
         "name": "title",
         "titles": "title",
-        "datatype": "string"
+        "datatype": "string",
+        "propertyUrl": "http://schema.org/name"
       },
       {
         "name": "author",
         "titles": "author",
-        "datatype": "string"
+        "datatype": "string",
+        "propertyUrl": "http://schema.org/author"
       },
       {
         "name": "published_date",
         "titles": "published_date",
-        "datatype": "date"
+        "datatype": "date",
+        "propertyUrl": "http://schema.org/datePublished"
       },
       {
         "name": "price",
         "titles": "price",
-        "datatype": "decimal"
+        "datatype": "decimal",
+        "propertyUrl": "http://schema.org/price"
       }
     ],
     "primaryKey": "id"
@@ -57,65 +64,52 @@ This metadata file describes the structure of the `books.csv` file and how to tr
 }
 ```
 
-#### **Important Parts Highlighted:**
-- **@context**: Defines the context for CSVW metadata, ensuring that the CSV file is interpreted correctly according to the CSVW standard.
-- **url**: Points to the `books.csv` file.
-- **tableSchema**: Describes the schema of the CSV file, including the columns (`name`, `titles`, `datatype`), which are crucial for mapping to RDF.
-- **primaryKey**: Specifies the primary key column (`id`), which uniquely identifies each row.
-- **rdfs:label** and **rdfs:comment**: Provide additional metadata about the dataset, useful for understanding the dataset's purpose and contents.
+#### **Annotations Explained:**
 
-### **Step 2: Annotate the CSV and Prepare for RDF Transformation**
+1. **@context**: Defines the context for interpreting the metadata according to the CSVW standard.
+2. **url**: The location of the CSV file to be mapped.
+3. **tableSchema**: Describes the structure of the table, including the columns.
 
-Each column in the CSV file is annotated to specify how it should be transformed into RDF triples.
+   **Within `columns`:**
+   
+   - **name**: Internal name for the column (matches the CSV header).
+   - **titles**: The actual title as it appears in the CSV file.
+   - **datatype**: Defines the data type of the column values (e.g., `integer`, `string`, `date`, `decimal`).
+   - **propertyUrl**: Specifies the RDF property to which the CSV column is mapped. This URL represents the predicate in the RDF triple.
+   - **valueUrl** (for `id`): Constructs a URI for each book, using the `id` value from the CSV. This URL will be used as the subject in the RDF triple.
 
-- **id**: Maps to a unique identifier (URI) for each book.
-- **title**: Maps to an RDF property representing the book's title.
-- **author**: Maps to an RDF property representing the book's author.
-- **published_date**: Maps to a date property in RDF.
-- **price**: Maps to a decimal value representing the book's price.
+4. **primaryKey**: Identifies the column that acts as the unique identifier for each row, ensuring each RDF subject is unique.
 
-### **Step 3: Transformation to RDF**
+### **Step 2: Transformation into RDF**
 
-Using the metadata, the CSV file can be automatically converted to RDF. Below is an example of the RDF triples generated for the first row in the CSV file.
+With the metadata defined, the transformation process maps each row in the CSV to RDF triples. Let's see how this looks for the first row:
 
 ```turtle
 @prefix ex: <http://example.org/books/> .
 @prefix schema: <http://schema.org/> .
 
-ex:book1 a schema:Book ;
+ex:1 a schema:Book ;
   schema:name "The Catcher in the Rye" ;
   schema:author "J.D. Salinger" ;
   schema:datePublished "1951-07-16"^^xsd:date ;
   schema:price "8.99"^^xsd:decimal .
 ```
 
-#### **Important Parts Highlighted:**
-- **@prefix**: Defines the prefixes for URIs used in the RDF data.
-- **ex:book1**: Represents the subject (a unique identifier for each book) in the RDF triple.
-- **schema:name**, **schema:author**, **schema:datePublished**, **schema:price**: These predicates describe properties of the book, mapped directly from the CSV columns.
-- **^^xsd:date** and **^^xsd:decimal**: Indicate the data types for the published date and price, ensuring correct interpretation of these values in RDF.
+#### **Breaking Down the RDF Output:**
 
-### **Best Practices Reinforced in the Example:**
+1. **Subject**: `ex:1` (constructed using the `valueUrl` from the `id` column). It uniquely identifies the book using its `id`.
 
-1. **Descriptive Headers**: The CSV file uses clear, descriptive headers (e.g., `title`, `author`), which are easily mapped to RDF properties.
-2. **Data Types**: Data types are explicitly defined in the metadata (`date`, `decimal`), ensuring the correct conversion to RDF.
-3. **Primary Key**: The `id` column is designated as the primary key, ensuring each RDF subject is uniquely identified.
+2. **Predicates and Objects**:
+   - `schema:name` maps to the `title` column and provides the book's title.
+   - `schema:author` maps to the `author` column and specifies the author.
+   - `schema:datePublished` maps to the `published_date` column and provides the publication date.
+   - `schema:price` maps to the `price` column and specifies the book's price.
 
-### **Step 4: Custom Conversion (Optional)**
+### **Key Points to Highlight:**
 
-You could customize the RDF URIs using templates. For instance:
+- **propertyUrl**: This annotation is crucial as it directly maps CSV columns to RDF predicates. Each column in your CSV corresponds to a specific RDF property, ensuring that your CSV data can be accurately represented in RDF format.
+- **valueUrl**: Used primarily for identifiers, this allows you to create unique URIs for your RDF subjects using the values in your CSV, ensuring that each resource is distinctly addressable on the web.
 
-```json
-{
-  "columns": [
-    {
-      "name": "id",
-      "titles": "id",
-      "valueUrl": "http://example.org/books/{id}"
-    },
-    ...
-  ]
-}
-```
+### **Summary**
 
-This would result in URIs like `http://example.org/books/1` for each book, making the RDF data more meaningful and accessible.
+The process of mapping CSV columns to RDF involves defining a detailed metadata file that specifies how each piece of data in the CSV is to be interpreted and transformed into RDF triples. The `propertyUrl` and `valueUrl` are key annotations in the metadata that determine how the CSV data is converted into RDF, enabling semantic interoperability and ensuring that the data is machine-readable and linked on the web.
