@@ -140,3 +140,29 @@ Nejdrive pokud, chceme zformulovat XLST musime umet XPATH.
   }
   ```
 
+```json
+{
+  "@context": {
+    "name": "http://schema.org/name",
+    "homepage": { "@id": "http://schema.org/url", "@type": "@id" }
+  },
+  "@graph": [
+    {
+      "@id": "http://example.com/person/123",
+      "name": "Jane Doe",
+      "homepage": "http://janedoe.com"
+    },
+    {
+      "@id": "http://example.com/person/456",
+      "name": "John Smith",
+      "homepage": "http://johnsmith.com"
+    },
+    {
+      "@id": "http://example.com/person/789",
+      "name": "Alice Johnson",
+      "homepage": "http://alicejohnson.com"
+    }
+  ]
+}
+
+```
