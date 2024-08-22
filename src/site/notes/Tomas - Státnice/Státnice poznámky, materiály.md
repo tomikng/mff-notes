@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tomas-statnice/statnice-poznamky-materialy/","tags":["tomas","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/tomas-statnice/statnice-poznamky-materialy/","tags":["tomas","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":""}
 ---
 
 # 🎓 Příprava na státnice MFF UK 2023/2024
@@ -29,7 +29,7 @@ Pokud narazíte na chyby, nebo máte jakoukoliv zpětnou vazbu, neváhejte mě k
 ### 🗃️ Databáze a web
 🌐 Sekce zaměřená na vše, co se týká databází a webových technologií. Obsahuje jak teoretické poznámky, tak praktické příklady a otázky.
 
-[[Tomas - Státnice/Databáze a web/Databáze a web - poznámky\|Databáze a web - poznámky]]
+[[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Databáze a web - poznámky\|Databáze a web - poznámky]]
 ## 🔗 Další užitečné zdroje
 - **GitHub repository**: [Odkaz na GitHub](https://github.com/tomikng/mff-notes)
 - **Studijní portál MFF UK**: [Odkaz na portál](https://www.mff.cuni.cz/cs/studenti/bakalarske-studium/statni-zaverecne-zkousky/bakalarske-statni-zkousky-studijniho-programu-informatika)

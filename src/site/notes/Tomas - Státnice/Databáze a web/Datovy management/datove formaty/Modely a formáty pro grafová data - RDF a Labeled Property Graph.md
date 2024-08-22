@@ -75,7 +75,7 @@ N-Quads je rozšíření N-Triples, které přidává podporu pojmenovaných gra
 **Popis a použití:**
 - RDF používá standardizovaný model, který je široce podporován na webu, a je zvláště užitečný pro propojení dat napříč různými doménami.
 - LPG (Labeled Property Graph) je flexibilnější model, často používaný v grafových databázích jako Neo4j, kde uzly a hrany mohou mít vlastnosti a štítky.
-
+![Pasted image 20240822090511.png](/img/user/assets/img/Pasted%20image%2020240822090511.png)![Pasted image 20240822090608.png](/img/user/assets/img/Pasted%20image%2020240822090608.png)
 **Klíčové rozdíly:**
 - **RDF** je více vhodné pro aplikace, které vyžadují interoperabilitu dat a sémantickou bohatost.
 - **LPG** je lepší pro scénáře, kde je důležitý výkon a složité dotazování v rámci jedné aplikace.
@@ -118,5 +118,3 @@ SELECT ?name WHERE {
 MATCH (p:Person)-[:KNOWS]->(friend)
 RETURN p.name, friend.name
 ```
-
-Tato verze lépe odpovídá obsahu vašeho PDF, zejména se zaměřením na formáty serializace Turtle, TriG, N-Triples a N-Quads, místo RDF/XML.
