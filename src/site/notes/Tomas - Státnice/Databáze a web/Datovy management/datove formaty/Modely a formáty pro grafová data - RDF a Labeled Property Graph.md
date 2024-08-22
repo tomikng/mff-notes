@@ -100,15 +100,95 @@ ex:knows a rdf:Property ;
 ![Pasted image 20240821140227.png](/img/user/assets/img/Pasted%20image%2020240821140227.png)
 ### Dotazovací jazyky
 #### 1. SPARQL
-- SPARQL je dotazovací jazyk pro RDF, který umožňuje dotazování nad RDF datovými sadami a manipulaci s těmito daty.
+- Transforming data in SPARQL involves querying and manipulating RDF (Resource Description Framework) data. SPARQL (SPARQL Protocol and RDF Query Language) is primarily used for querying RDF data, but you can also use it to perform some basic transformations on the data.
 
-**Příklad:**
-```sparql
-SELECT ?name WHERE {
-  ?person a ex:Person ;
-          ex:name ?name .
-}
-```
+##### 1. **Filtering Data**
+   - Use the `FILTER` keyword to include or exclude specific data. For example, you can filter results based on certain conditions like numerical ranges or string patterns.
+   ```sparql
+   SELECT ?subject ?predicate ?object
+   WHERE {
+       ?subject ?predicate ?object.
+       FILTER (?object > 100) # Example of filtering by a numerical value
+   }
+   ```
+
+#### 2. **Creating New Triples**
+   - You can create new triples (subject-predicate-object statements) using `CONSTRUCT`. This allows you to transform data into a new RDF graph.
+   ```sparql
+   CONSTRUCT {
+       ?subject <http://example.org/newPredicate> ?object .
+   }
+   WHERE {
+       ?subject <http://example.org/oldPredicate> ?object .
+   }
+   ```
+   - This query creates a new RDF triple for each result where the old predicate is replaced with a new predicate.
+
+#### 3. **Binding Variables to New Values**
+   - Use `BIND` to create new values based on the results of expressions. This can be used to transform or calculate new data fields.
+   ```sparql
+   SELECT ?subject ?newValue
+   WHERE {
+       ?subject <http://example.org/hasValue> ?value .
+       BIND(?value * 2 AS ?newValue) # Example of creating a new variable with transformed data
+   }
+   ```
+   - In this example, `?newValue` is twice the original `?value`.
+
+##### 4. **Aggregation and Grouping**
+   - SPARQL supports aggregation functions like `SUM`, `AVG`, `COUNT`, `GROUP_CONCAT`, etc., which can be used to group and summarize data.
+   ```sparql
+   SELECT ?subject (SUM(?value) AS ?totalValue)
+   WHERE {
+       ?subject <http://example.org/hasValue> ?value .
+   }
+   GROUP BY ?subject
+   ```
+   - This query sums the values associated with each subject, grouping by the subject.
+
+##### 5. **String Manipulations**
+   - You can use functions like `STRLEN`, `SUBSTR`, `CONCAT`, etc., to manipulate strings within your data.
+   ```sparql
+   SELECT ?subject (CONCAT(?firstName, " ", ?lastName) AS ?fullName)
+   WHERE {
+       ?subject <http://example.org/firstName> ?firstName .
+       ?subject <http://example.org/lastName> ?lastName .
+   }
+   ```
+   - Here, the first and last names are concatenated into a full name.
+
+##### 6. **Optional Data Transformation**
+   - Use `OPTIONAL` to include data that might not be present for all subjects.
+   ```sparql
+   SELECT ?subject ?name ?optionalValue
+   WHERE {
+       ?subject <http://example.org/hasName> ?name .
+       OPTIONAL { ?subject <http://example.org/optionalPredicate> ?optionalValue }
+   }
+   ```
+   - The `OPTIONAL` keyword allows for the inclusion of data only if it exists.
+
+##### 7. **Transforming with Functions**
+   - SPARQL has a variety of functions for data manipulation, such as mathematical functions (`ABS`, `ROUND`, etc.), date functions (`NOW`, `YEAR`, etc.), and more.
+   ```sparql
+   SELECT ?subject (YEAR(?date) AS ?year)
+   WHERE {
+       ?subject <http://example.org/hasDate> ?date .
+   }
+   ```
+   - This example extracts the year from a date.
+
+##### 8. **Combining Data from Multiple Sources**
+   - You can use `UNION` to combine data from multiple patterns.
+   ```sparql
+   SELECT ?subject ?value
+   WHERE {
+       { ?subject <http://example.org/propertyA> ?value }
+       UNION
+       { ?subject <http://example.org/propertyB> ?value }
+   }
+   ```
+   - This query combines results from two different properties into a single result set.
 
 #### 2. Cypher
 - Cypher je dotazovací jazyk pro Labeled Property Graphs, používaný především v databázi Neo4j.

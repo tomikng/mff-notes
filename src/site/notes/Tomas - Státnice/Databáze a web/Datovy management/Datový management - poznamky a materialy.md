@@ -10,3 +10,5 @@ Poznamky jsou struktorovane do bodech jako je v pozadavcich
 1. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Základní typy strukturovaných dat\|Základní typy strukturovaných dat]]
 2. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Datovy model, datovy format, datove schema\|Datovy model, datovy format, datove schema]]
 3. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Modely a formáty pro grafová data - RDF a Labeled Property Graph\|Modely a formáty pro grafová data - RDF a Labeled Property Graph]]
+4. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Hierarchická data\|Hierarchická data]]
+5. 
