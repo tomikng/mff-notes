@@ -22,7 +22,7 @@ Poznamky jsou strukturovane do bodech jako je v pozadavcich
 4. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Hierarchická data\|Hierarchická data]]
 5. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/CSV\|CSV]]
 6. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/GeoData\|GeoData]]
-7. 
+7. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Popsat semanticky data\|Popsat semanticky data]]
 # Procesy zpracovani dat
 1. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Datove operace\|Datove operace]]
 2. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Kvalita dat, Dimenze pro mereni\|Kvalita dat, Dimenze pro mereni]]
