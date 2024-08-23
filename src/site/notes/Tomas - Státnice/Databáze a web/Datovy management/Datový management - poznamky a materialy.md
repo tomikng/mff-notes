@@ -8,7 +8,7 @@
 [Uvod do datoveho ing](https://www.ksi.mff.cuni.cz/teaching/ndbi046-web/)
 
 [Principy organizace dat](https://www.ksi.mff.cuni.cz/~holubova/NDBI007/)
-
+[Video od Skody](https://www.youtube.com/playlist?list=PLs_965odMumfDxeuVX9TQnqGOomGf0ulE)
 Poznamky jsou strukturovane do bodech jako je v pozadavcich
 # Datove formaty
 1. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Základní typy strukturovaných dat\|Základní typy strukturovaných dat]], [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Textove formaty\|Textove formaty]]
@@ -46,3 +46,7 @@ Poznamky jsou strukturovane do bodech jako je v pozadavcich
 4. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady indexovani/Hiearchicke Indexy\|Hiearchicke Indexy]]
 # Indexování v prostorových databázích
 1. [[Tomas - Státnice/Databáze a web/Datovy management/indexovani v prostorovych databazi/Krivky\|Krivky]]
+2. [[Tomas - Státnice/Databáze a web/Datovy management/indexovani v prostorovych databazi/Multidimensionalni Indexovani (Quad Tree)\|Multidimensionalni Indexovani (Quad Tree)]]
+3. [[Tomas - Státnice/Databáze a web/Datovy management/indexovani v prostorovych databazi/K-D-Tree\|K-D-Tree]]
+4. [[Tomas - Státnice/Databáze a web/Datovy management/indexovani v prostorovych databazi/R Strom\|R Strom]]
+5. [[Tomas - Státnice/Databáze a web/Datovy management/indexovani v prostorovych databazi/Spatial join\|Spatial join]]
