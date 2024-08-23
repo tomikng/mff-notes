@@ -7,7 +7,7 @@
 
 Pojmy **přímé/nepřímé indexování** a **primární/sekundární index** jsou klíčové pro efektivní organizaci a vyhledávání dat v databázových systémech. Zde je vysvětlení těchto pojmů a příklady jejich použití.
 ### Přímé vs. Nepřímé Indexování
-![Pasted image 20240823113910.png](/img/user/Pasted%20image%2020240823113910.png)
+![Pasted image 20240823113910.png](/img/user/assets/img/Pasted%20image%2020240823113910.png)
 
 **Přímé indexování (Direct Indexing):**  
 Při přímém indexování je index přímo propojen se záznamy v primárním souboru. To znamená, že index obsahuje ukazatele přímo na záznamy v souboru, což umožňuje rychlý přístup k datům.
