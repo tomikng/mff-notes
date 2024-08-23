@@ -41,4 +41,6 @@ Poznamky jsou strukturovane do bodech jako je v pozadavcich
 5. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady sifrovani a komprese dat/Asymetricke a Symetricke sifrovani\|Asymetricke a Symetricke sifrovani]]
 # Základy indexování
 1. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady indexovani/Zakladni typy organizace souboru\|Zakladni typy organizace souboru]]
-2. 
+2. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady indexovani/Primarni a sekundarni index\|Primarni a sekundarni index]]
+3. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady indexovani/Hashovani na vnejsi pameti\|Hashovani na vnejsi pameti]]
+4. 
