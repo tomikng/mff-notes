@@ -2,14 +2,26 @@
 {"dg-publish":true,"permalink":"/tomas-statnice/databaze-a-web/datovy-management/datovy-management-poznamky-a-materialy/","tags":["tomas","databaze_a_web","datovy_management"],"noteIcon":""}
 ---
 
-https://docs.google.com/presentation/d/1y-OgofGraFbUUH6aEc8h1XQqtfuV1WVHFeRSwGUp1aw/edit#slide=id.gc01d8b73af_0_141
-https://jakub.xn--klmek-0sa.com/nprg036
 
-Poznamky jsou struktorovane do bodech jako je v pozadavcich
-## Datove formaty
+[Datove formaty](https://jakub.xn--klmek-0sa.com/nprg036)
+
+[Uvod do datoveho ing](https://www.ksi.mff.cuni.cz/teaching/ndbi046-web/)
+
+Poznamky jsou strukturovane do bodech jako je v pozadavcich
+# Datove formaty
 1. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Základní typy strukturovaných dat\|Základní typy strukturovaných dat]], [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Textove formaty\|Textove formaty]]
 2. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Datovy model, datovy format, datove schema\|Datovy model, datovy format, datove schema]]
 3. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Modely a formáty pro grafová data - RDF a Labeled Property Graph\|Modely a formáty pro grafová data - RDF a Labeled Property Graph]]
 4. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Hierarchická data\|Hierarchická data]]
 5. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/CSV\|CSV]]
 6. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/GeoData\|GeoData]]
+# Procesy zpracovani dat
+1. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Datove operace\|Datove operace]]
+2. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Kvalita dat, Dimenze pro mereni\|Kvalita dat, Dimenze pro mereni]]
+3. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Kvalita dat, Dimenze pro mereni\|Kvalita dat, Dimenze pro mereni]]
+4. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Data provenance\|Data provenance]]
+# Katalogizace dat, metadata
+1. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Katalogizace dat, metadata#Druhy metadat\|Katalogizace dat, metadata#Druhy metadat]]
+2. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Katalogizace dat, metadata#Datovy katalog\|Katalogizace dat, metadata#Datovy katalog]]
+3. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Katalogizace dat, metadata#DCAT (Data Catalog Vocabulary)\|Katalogizace dat, metadata#DCAT (Data Catalog Vocabulary)]]
+4. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/examples/Usage of DCAT\|Usage of DCAT]]
