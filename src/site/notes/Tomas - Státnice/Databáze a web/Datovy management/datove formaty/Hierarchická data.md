@@ -74,7 +74,7 @@ Nejdrive pokud, chceme zformulovat XLST musime umet XPATH.
 - Funguje jako normalni nagvigace ve strome
 ### Filtrovani
 ![Pasted image 20240822105856.png](/img/user/assets/img/Pasted%20image%2020240822105856.png)
-### XLST
+### XSLT
 - **Účel**: XSLT je jazyk pro transformaci XML dokumentů do různých formátů, jako je HTML, text, nebo dokonce jiné XML dokumenty. Transformace se provádí na základě šablon, které definují, jak by měly být jednotlivé prvky XML dokumentu zpracovány.
 - **Příklad**:
   ```xml
@@ -130,6 +130,15 @@ Nejdrive pokud, chceme zformulovat XLST musime umet XPATH.
 - **Příklad**:
   ```json
   {
+    "@context": {
+      "name": "http://schema.org/name",
+      "homepage": { "@id": "http://schema.org/url", "@type": "@id" }
+    },
+    "@id": "http://example.com/person/123",
+    "name": "Jane Doe",
+    "homepage": "http://janedoe.com"
+  },
+    {
     "@context": {
       "name": "http://schema.org/name",
       "homepage": { "@id": "http://schema.org/url", "@type": "@id" }

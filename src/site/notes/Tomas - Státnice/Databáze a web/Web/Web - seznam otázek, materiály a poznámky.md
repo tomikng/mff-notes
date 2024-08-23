@@ -55,8 +55,8 @@
 
 ### Vyhledávání na webu a v multimediálních databázích
 -  [[Tomas - Státnice/Databáze a web/Web/Booleovský model\|Popsat booleovské a vektorové modely, word2vec]]
--  Popsat vyhledávání v hypertextu, ranking, PageRank
--  Vysvětlit optimalizaci webových stránek pro vyhledávače
+-  [[Tomas - Státnice/Databáze a web/Web/Vyhledávání Hypertext, Ranking, PageRank\|Popsat vyhledávání v hypertextu, ranking, PageRank]]
+-  [[Tomas - Státnice/Databáze a web/Web/SEO\|Vysvětlit optimalizaci webových stránek pro vyhledávače]]
 -  Popsat metrické indexování podobnosti (filtrování pomocí pivotů, maticové, stromové, hašované a hybridní indexy)
 -  Uvést základní formáty spojené s vizuálními daty (konkrétně BMP, JPEG, MP4)
 -  Vysvětlit základní principy komprese videa
