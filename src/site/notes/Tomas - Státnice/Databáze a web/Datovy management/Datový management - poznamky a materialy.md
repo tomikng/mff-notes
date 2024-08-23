@@ -12,6 +12,8 @@
 ## Principy organizace dat
 [Principy organizace dat](https://www.ksi.mff.cuni.cz/~holubova/NDBI007/)
 [Video od Skody](https://www.youtube.com/playlist?list=PLs_965odMumfDxeuVX9TQnqGOomGf0ulE)
+
+> [!Info]
 Poznamky jsou strukturovane do bodech jako je v pozadavcich
 # Datove formaty
 1. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Základní typy strukturovaných dat\|Základní typy strukturovaných dat]], [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Textove formaty\|Textove formaty]]
