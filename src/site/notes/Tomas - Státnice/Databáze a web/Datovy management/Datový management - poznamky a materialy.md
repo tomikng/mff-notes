@@ -2,11 +2,14 @@
 {"dg-publish":true,"permalink":"/tomas-statnice/databaze-a-web/datovy-management/datovy-management-poznamky-a-materialy/","tags":["tomas","databaze_a_web","datovy_management"],"noteIcon":""}
 ---
 
-
+# Externi zdroje
+## Datove formaty
 [Datove formaty](https://jakub.xn--klmek-0sa.com/nprg036)
 
+## Uvod do datoveho inzenyrstvi
 [Uvod do datoveho ing](https://www.ksi.mff.cuni.cz/teaching/ndbi046-web/)
 
+## Principy organizace dat
 [Principy organizace dat](https://www.ksi.mff.cuni.cz/~holubova/NDBI007/)
 [Video od Skody](https://www.youtube.com/playlist?list=PLs_965odMumfDxeuVX9TQnqGOomGf0ulE)
 Poznamky jsou strukturovane do bodech jako je v pozadavcich
