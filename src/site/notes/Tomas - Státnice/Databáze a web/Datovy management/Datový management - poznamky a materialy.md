@@ -40,4 +40,5 @@ Poznamky jsou strukturovane do bodech jako je v pozadavcich
 4. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady sifrovani a komprese dat/PKI\|PKI]]
 5. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady sifrovani a komprese dat/Asymetricke a Symetricke sifrovani\|Asymetricke a Symetricke sifrovani]]
 # Základy indexování
-1. 
+1. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady indexovani/Zakladni typy organizace souboru\|Zakladni typy organizace souboru]]
+2. 

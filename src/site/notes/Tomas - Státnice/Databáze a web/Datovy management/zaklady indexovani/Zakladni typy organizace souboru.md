@@ -135,3 +135,4 @@ Level 1 (Top Index):
 - **Hromada** je vhodná pro jednoduché a rychlé vkládání záznamů bez ohledu na pořadí, ale není efektivní při hledání.
 - **Sekvenční soubor** nabízí efektivní vyhledávání, pokud jsou záznamy seřazeny podle často používaného klíče, ale jeho údržba při přidávání nových záznamů je složitější.
 - **Indexovaný sekvenční soubor** kombinuje výhody sekvenčního souboru s rychlým přístupem pomocí indexu, ale vyžaduje složitější správu a údržbu.
+![Pasted image 20240823113512.png](/img/user/assets/img/Pasted%20image%2020240823113512.png)
