@@ -43,4 +43,6 @@ Poznamky jsou strukturovane do bodech jako je v pozadavcich
 1. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady indexovani/Zakladni typy organizace souboru\|Zakladni typy organizace souboru]]
 2. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady indexovani/Primarni a sekundarni index\|Primarni a sekundarni index]]
 3. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady indexovani/Hashovani na vnejsi pameti\|Hashovani na vnejsi pameti]]
-4. 
+4. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady indexovani/Hiearchicke Indexy\|Hiearchicke Indexy]]
+# Indexování v prostorových databázích
+1. [[Tomas - Státnice/Databáze a web/Datovy management/indexovani v prostorovych databazi/Krivky\|Krivky]]
