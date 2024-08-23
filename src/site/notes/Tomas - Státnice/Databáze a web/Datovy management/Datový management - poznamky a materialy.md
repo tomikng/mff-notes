@@ -7,6 +7,8 @@
 
 [Uvod do datoveho ing](https://www.ksi.mff.cuni.cz/teaching/ndbi046-web/)
 
+[Principy organizace dat](https://www.ksi.mff.cuni.cz/~holubova/NDBI007/)
+
 Poznamky jsou strukturovane do bodech jako je v pozadavcich
 # Datove formaty
 1. [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Základní typy strukturovaných dat\|Základní typy strukturovaných dat]], [[Tomas - Státnice/Databáze a web/Datovy management/datove formaty/Textove formaty\|Textove formaty]]
@@ -21,19 +23,21 @@ Poznamky jsou strukturovane do bodech jako je v pozadavcich
 3. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Kvalita dat, Dimenze pro mereni\|Kvalita dat, Dimenze pro mereni]]
 4. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Data provenance\|Data provenance]]
 # Katalogizace dat, metadata
-1. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Katalogizace dat, metadata#Druhy metadat\|Katalogizace dat, metadata#Druhy metadat]]
-2. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Katalogizace dat, metadata#Datovy katalog\|Katalogizace dat, metadata#Datovy katalog]]
-3. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Katalogizace dat, metadata#DCAT (Data Catalog Vocabulary)\|Katalogizace dat, metadata#DCAT (Data Catalog Vocabulary)]]
-4. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/examples/Usage of DCAT\|Usage of DCAT]]
+1. [[Tomas - Státnice/Databáze a web/Datovy management/katalogizace dat, metadata/Katalogizace dat, metadata#Druhy metadat\|Katalogizace dat, metadata#Druhy metadat]]
+2. [[Tomas - Státnice/Databáze a web/Datovy management/katalogizace dat, metadata/Katalogizace dat, metadata#Datovy katalog\|Katalogizace dat, metadata#Datovy katalog]]
+3. [[Tomas - Státnice/Databáze a web/Datovy management/katalogizace dat, metadata/Katalogizace dat, metadata#DCAT (Data Catalog Vocabulary)\|Katalogizace dat, metadata#DCAT (Data Catalog Vocabulary)]]
+4. [[Tomas - Státnice/Databáze a web/Datovy management/katalogizace dat, metadata/examples/Usage of DCAT\|Usage of DCAT]]
 # [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Semanticky popis dat, slovniky\|Semanticky popis dat, slovniky]]
-1. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Datova sila\|Datova sila]]
-2. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Vyhody vyuziti kontrolovanych slovniku\|Vyhody vyuziti kontrolovanych slovniku]]
-3. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Rozdily typy slovniku\|Rozdily typy slovniku]]
-4. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/SKOS\|SKOS]]
-5. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/SKOS#Příklad použití SKOS\|SKOS#Příklad použití SKOS]]
+1. [[Tomas - Státnice/Databáze a web/Datovy management/semanticky popis dat, slovniky/Datova sila\|Datova sila]]
+2. [[Tomas - Státnice/Databáze a web/Datovy management/semanticky popis dat, slovniky/Vyhody vyuziti kontrolovanych slovniku\|Vyhody vyuziti kontrolovanych slovniku]]
+3. [[Tomas - Státnice/Databáze a web/Datovy management/semanticky popis dat, slovniky/Rozdily typy slovniku\|Rozdily typy slovniku]]
+4. [[Tomas - Státnice/Databáze a web/Datovy management/semanticky popis dat, slovniky/SKOS\|SKOS]]
+5. [[Tomas - Státnice/Databáze a web/Datovy management/semanticky popis dat, slovniky/SKOS#Příklad použití SKOS\|SKOS#Příklad použití SKOS]]
 # Základy šifrování a komprese dat 
-1. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Shannonova veta\|Shannonova veta]]
-2. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Algoritmy pro kompresi dat\|Algoritmy pro kompresi dat]]
-3. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Digitalni certifikat\|Digitalni certifikat]]
-4. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/PKI\|PKI]]
-5. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Asymetricke a Symetricke sifrovani\|Asymetricke a Symetricke sifrovani]]
+1. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady sifrovani a komprese dat/Shannonova veta\|Shannonova veta]]
+2. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady sifrovani a komprese dat/Algoritmy pro kompresi dat\|Algoritmy pro kompresi dat]]
+3. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady sifrovani a komprese dat/Digitalni certifikat\|Digitalni certifikat]]
+4. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady sifrovani a komprese dat/PKI\|PKI]]
+5. [[Tomas - Státnice/Databáze a web/Datovy management/zaklady sifrovani a komprese dat/Asymetricke a Symetricke sifrovani\|Asymetricke a Symetricke sifrovani]]
+# Základy indexování
+1. 
