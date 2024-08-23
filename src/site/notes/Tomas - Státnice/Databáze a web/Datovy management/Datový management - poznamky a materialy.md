@@ -31,3 +31,4 @@ Poznamky jsou strukturovane do bodech jako je v pozadavcich
 3. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Rozdily typy slovniku\|Rozdily typy slovniku]]
 4. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/SKOS\|SKOS]]
 5. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/SKOS#Příklad použití SKOS\|SKOS#Příklad použití SKOS]]
+# Základy šifrování a komprese dat 
