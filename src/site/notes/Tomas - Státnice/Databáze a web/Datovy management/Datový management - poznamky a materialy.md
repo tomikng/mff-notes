@@ -32,3 +32,8 @@ Poznamky jsou strukturovane do bodech jako je v pozadavcich
 4. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/SKOS\|SKOS]]
 5. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/SKOS#Příklad použití SKOS\|SKOS#Příklad použití SKOS]]
 # Základy šifrování a komprese dat 
+1. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Shannonova veta\|Shannonova veta]]
+2. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Algoritmy pro kompresi dat\|Algoritmy pro kompresi dat]]
+3. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Digitalni certifikat\|Digitalni certifikat]]
+4. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/PKI\|PKI]]
+5. [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Asymetricke a Symetricke sifrovani\|Asymetricke a Symetricke sifrovani]]
