@@ -29,7 +29,7 @@ Dublin Core je široce využíván pro jeho jednoduchost a flexibilitu při popi
 
 ### SKOS (Simple Knowledge Organization System)
 
-SKOS je další sémantický slovník, který je určený pro reprezentaci znalostních organizací, jako jsou tezaury, klasifikace nebo taxonomie. SKOS umožňuje reprezentovat koncepty a jejich vztahy, což je užitečné při organizaci znalostí v různých doménách.
+[[Tomas - Státnice/Databáze a web/Datovy management/semanticky popis dat, slovniky/SKOS\|SKOS]] je další sémantický slovník, který je určený pro reprezentaci znalostních organizací, jako jsou tezaury, klasifikace nebo taxonomie. SKOS umožňuje reprezentovat koncepty a jejich vztahy, což je užitečné při organizaci znalostí v různých doménách.
 
 Základní prvky SKOS zahrnují:
 - **skos:Concept**: Definuje základní jednotku v SKOS, což je koncept, například „Pes“ nebo „Matematika“.
