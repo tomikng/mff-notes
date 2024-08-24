@@ -19,7 +19,8 @@
     dct:issued "2024-01-01"^^xsd:date ;
     dct:language "en" ;
     dcat:dataset <https://example.org/dataset/weather-data>,
-                 <https://example.org/dataset/air-quality-data> .
+                 <https://example.org/dataset/air-quality-data> ;
+    dcat:service <https://example.org/service/weather-api> .
 
 # Define a dataset within the catalog
 <https://example.org/dataset/weather-data> a dcat:Dataset ;
@@ -44,6 +45,16 @@
     dcat:accessURL <https://api.example.org/weather-data> ;
     dct:title "Weather Data API Access" .
 
+# Define the Data Service providing API access
+<https://example.org/service/weather-api> a dcat:DataService ;
+    dct:title "Weather Data API Service" ;
+    dct:description "An API service providing real-time access to weather data." ;
+    dct:license <https://example.org/license> ;
+    dcat:endpointURL <https://api.example.org/v1/weather> ;
+    dcat:servesDataset <https://example.org/dataset/weather-data> ;
+    dcat:endpointDescription <https://example.org/docs/weather-api> ;
+    dcat:contactPoint <https://example.org/contact> .
+
 # Define another dataset within the catalog
 <https://example.org/dataset/air-quality-data> a dcat:Dataset ;
     dct:title "Air Quality Data" ;
@@ -59,6 +70,7 @@
     dct:format "application/json" ;
     dcat:accessURL <https://example.org/files/air-quality-data.json> ;
     dct:title "Air Quality Data JSON File" .
+
 ```
 
 ### Explanation of the Example
