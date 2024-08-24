@@ -4,8 +4,6 @@
 
 > [!NOTE] ChatGPT
 > Vygenerováno pomocí ChatGPT
-Certainly! Below is an example of how a datový katalog (data catalog) might be described using the DCAT vocabulary. I'll provide a simplified RDF serialization example using the Turtle syntax, which is commonly used to represent RDF data.
-
 ### Example: Data Catalog with DCAT
 
 ```turtle
