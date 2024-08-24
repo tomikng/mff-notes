@@ -5,8 +5,7 @@
 > [!NOTE] ChatGPT
 > Vygenerováno pomocí ChatGPT na základě poznamek
 
-Využití kontrolovaných slovníků (controlled vocabulary) k popisu dat přináší řadu významných výhod, které přispívají k lepší správě, vyhledávání a interpretaci dat. Kontrolované slovníky jsou standardizované a strukturované seznamy termínů, které jsou používány ke konzistentnímu popisu obsahu napříč různými systémy a aplikacemi. Zde jsou hlavní výhody jejich využití:
-
+Využití [[Tomas - Státnice/Databáze a web/Datovy management/procesy zprcovani dat/Semanticky popis dat, slovniky#^1c66c9\|rizenych slovniku]] (controlled vocabulary) k popisu dat přináší řadu významných výhod, které přispívají k lepší správě, vyhledávání a interpretaci dat.
 ### 1. **Konzistence a standardizace**
    - **Výhoda**: Používání kontrolovaných slovníků zajišťuje, že všichni uživatelé a systémy používají stejnou terminologii pro popis stejných konceptů. To minimalizuje nejednoznačnost a různé interpretace dat, což je klíčové pro správnou interpretaci a analýzu.
    - **Příklad**: Pokud dva různé týmy označují stejný koncept rozdílnými termíny, může dojít k nejasnostem. Použití kontrolovaného slovníku tento problém řeší tím, že stanovuje jednotné pojmy.
