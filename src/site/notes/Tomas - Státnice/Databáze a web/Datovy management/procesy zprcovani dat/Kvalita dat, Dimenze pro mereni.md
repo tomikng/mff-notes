@@ -8,18 +8,6 @@
 # Datova kvalita
 **Datová kvalita** se vztahuje k tomu, jak dobře data splňují požadavky na jejich použití. Neexistuje jednotná definice kvality dat, protože to, co je považováno za kvalitní data, může záviset na konkrétním kontextu a účelu, pro který jsou data používána. Kvalita dat zahrnuje několik dimenzí, které mohou zahrnovat přesnost, konzistenci, úplnost, aktuálnost a dostupnost dat.
 
-### **Důležitost datové kvality pro uživatele dat:**
-
-1. **Přesnost:** Data musí přesně odrážet skutečný stav věcí. Nepřesná data mohou vést k chybným rozhodnutím, což může mít závažné dopady na organizaci, například při finančních analýzách nebo při rozhodování na základě dat.
-
-2. **Konzistence:** Data by měla být konzistentní v rámci celé databáze. Například stejný zákazník by neměl být uveden s různými údaji na různých místech databáze. Konzistence je klíčová pro udržení integrity dat.
-
-3. **Úplnost:** Data by měla být dostatečně kompletní, aby mohla podpořit daný úkol nebo analýzu. Chybějící údaje mohou vést k neúplným závěrům nebo potřebě dodatečných dotazů, které mohou zpomalit rozhodovací proces.
-
-4. **Aktuálnost:** Data by měla být aktuální, aby reflektovala současnou situaci. Zastaralá data mohou způsobit, že organizace bude pracovat s informacemi, které již nejsou relevantní, což může ovlivnit efektivitu a přesnost rozhodnutí.
-
-5. **Dostupnost:** Data musí být snadno dostupná uživatelům, kteří je potřebují. Nedostupnost dat v kritických momentech může mít za následek ztrátu příležitostí nebo neschopnost provést důležité analýzy.
-
 **Význam pro uživatele:**
 Kvalita dat je zásadní pro uživatele dat, protože přímo ovlivňuje jejich schopnost provádět přesné analýzy, vyvozovat správné závěry a přijímat informovaná rozhodnutí. Špatná kvalita dat může vést k chybám, zvýšeným nákladům, ztrátě času a dokonce k poškození pověsti organizace .
 
