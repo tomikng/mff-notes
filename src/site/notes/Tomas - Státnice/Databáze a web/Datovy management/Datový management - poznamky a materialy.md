@@ -8,6 +8,7 @@
 
 ## Uvod do datoveho inzenyrstvi
 [Uvod do datoveho ing](https://www.ksi.mff.cuni.cz/teaching/ndbi046-web/)
+[Moje repo na datove ing](https://github.com/tomikng/Datove-Inzenyrstvi)
 
 ## Principy organizace dat
 [Principy organizace dat](https://www.ksi.mff.cuni.cz/~holubova/NDBI007/)
