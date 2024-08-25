@@ -45,6 +45,19 @@ Různé algoritmy pro kompresi dat se liší v přístupu, jakým snižují veli
   - E: 1101
   - F: 1100
 - Tento kód je optimální v tom smyslu, že minimalizuje celkovou délku komprimovaného datového souboru.
+```mermaid
+graph TD;
+    Z[Node: 100] --> A[Node: 45 A: 0]
+    Z --> Y[Node: 55]
+    Y --> X[Node: 25]
+    X --> C[Node: 12 C: 100]
+    X --> B[Node: 13 B: 101]
+    Y --> W[Node: 30]
+    W --> D[Node: 16 D: 111]
+    W --> V[Node: 14]
+    V --> F[Node: 5 F: 1100]
+    V --> E[Node: 9 E: 1101]
+```
 
 ## Výhoda:
 - Vytváří optimální kód pro danou frekvenci výskytu znaků.
@@ -66,7 +79,7 @@ Různé algoritmy pro kompresi dat se liší v přístupu, jakým snižují veli
   - Jakmile narazí na první "AB", přidá do slovníku nový záznam "AB" s kódem 3.
   - Při dalším výskytu "AB" použije kód 3 místo znovu "AB".
   - Konečný výstup může vypadat jako: **1 2 3 3 3 1**, kde každé číslo odpovídá kódu ve slovníku.
-
+![Pasted image 20240825134632.png](/img/user/assets/img/Pasted%20image%2020240825134632.png)
 ## Výhoda:
 - Velmi efektivní pro kompresi opakujících se vzorů v datech, jako jsou soubory s textem nebo grafické formáty.
 - Algoritmus je rychlý a má široké využití (např. ve formátech GIF).

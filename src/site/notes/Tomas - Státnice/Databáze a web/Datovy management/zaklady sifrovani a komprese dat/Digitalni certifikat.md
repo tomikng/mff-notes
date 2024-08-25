@@ -7,7 +7,7 @@
 ### Digitální certifikát a jeho použití
 
 #### Co je digitální certifikát?
-Digitální certifikát je veřejné prohlášení, které potvrzuje vlastnictví soukromého klíče. Slouží k tomu, aby třetím stranám poskytl důvěru v autenticitu určité osoby nebo entity, která používá tento klíč pro zabezpečenou komunikaci. Certifikát tedy spojuje identitu držitele s odpovídajícím veřejným klíčem a je vydáván certifikační autoritou (CA), která ověřuje, že veřejný klíč patří danému subjektu.
+Digitální certifikát je veřejné prohlášení, které **potvrzuje vlastnictví soukromého klíče**. Slouží k tomu, aby třetím stranám poskytl důvěru v autenticitu určité osoby nebo entity, která používá tento klíč pro zabezpečenou komunikaci. Certifikát tedy spojuje identitu držitele s odpovídajícím veřejným klíčem a je vydáván certifikační autoritou (CA), která ověřuje, že veřejný klíč patří danému subjektu.
 
 #### Základní vlastnosti digitálního certifikátu:
 - **Veřejný klíč**: Obsahuje veřejný klíč, který je spojen s identitou držitele certifikátu.
