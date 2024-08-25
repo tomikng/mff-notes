@@ -5,7 +5,7 @@
 > [!NOTE] ChatGPT
 > Vygenerováno pomocí ChatGPT na základě poznamek z DI.
 ### Digitální certifikát a jeho použití
-
+![Pasted image 20240825144842.png](/img/user/assets/img/Pasted%20image%2020240825144842.png)
 #### Co je digitální certifikát?
 Digitální certifikát je veřejné prohlášení, které **potvrzuje vlastnictví soukromého klíče**. Slouží k tomu, aby třetím stranám poskytl důvěru v autenticitu určité osoby nebo entity, která používá tento klíč pro zabezpečenou komunikaci. Certifikát tedy spojuje identitu držitele s odpovídajícím veřejným klíčem a je vydáván certifikační autoritou (CA), která ověřuje, že veřejný klíč patří danému subjektu.
 
