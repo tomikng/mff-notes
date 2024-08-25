@@ -7,6 +7,7 @@
 
 > [!DANGER] Priklady
 > Priklady jsou generovany, jejich spravnost nemusi byt 100%
+
 Různé algoritmy pro kompresi dat se liší v přístupu, jakým snižují velikost dat, ale všechny mají společný cíl: minimalizovat počet bitů potřebných pro reprezentaci dat. Níže jsou uvedeny základní myšlenky a příklady pro čtyři hlavní algoritmy komprese: Run-Length Encoding (RLE), Huffman Coding, Lempel-Ziv-Welch (LZW) a Arithmetic Coding.
 
 # **Run-Length Encoding (RLE)**
