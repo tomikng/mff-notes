@@ -7,6 +7,9 @@
 
 Shannonova věta o kódování zdrojů, také známá jako **Shannon’s source coding theorem**, je základní princip v teorii informace, který se zabývá efektivitou komprese dat. Tato věta je pojmenována po Claudu Shannonovi, který je považován za zakladatele moderní teorie informace.
 
+> [!Video] Understand more intuitively
+> [Video](https://www.youtube.com/watch?v=0GCGaw0QOhA)
+
 ### Význam Shannonovy věty o kódování zdrojů:
 
 # Základní princip
