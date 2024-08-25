@@ -9,7 +9,7 @@
 ## Uvod do datoveho inzenyrstvi
 [Uvod do datoveho ing](https://www.ksi.mff.cuni.cz/teaching/ndbi046-web/)
 [Moje repo na datove ing](https://github.com/tomikng/Datove-Inzenyrstvi)
-[Video na sifrovani](https://www.youtube.com/watch?v=qXLD2UHq2vk)
+[Video na digitalni certifikat](https://www.youtube.com/watch?v=qXLD2UHq2vk)
 
 ## Principy organizace dat
 [Principy organizace dat](https://www.ksi.mff.cuni.cz/~holubova/NDBI007/)
