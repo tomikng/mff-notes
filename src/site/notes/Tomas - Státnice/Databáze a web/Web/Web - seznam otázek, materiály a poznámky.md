@@ -6,6 +6,8 @@
 [Procvičení JS DOM](https://www.jschallenger.com/javascript-dom-exercises/)
 [Procvičení JS Základu](https://www.jschallenger.com/javascript-basics)
 
+
+[Poznamky z Vyhledavani ve videu](https://cdn.tom-nguyen.dev/Video_retrieval_exam.pdf)
 ## Otázky
 
 > [!DANGER] Pozor
@@ -53,7 +55,7 @@
 -  Vysvětlit princip fungování, výhody a nevýhody content-based a knowledge-based doporučování
 -  Vysvětlit cíle, rozdíly a omezení v offline/online/user-studies hodnocení doporučovacích systémů a uvést typické hodnotící metriky
 
-### Vyhledávání na webu a v multimediálních databázích
+### Vyhledávání na webu a v multimediálních databázích 
 -  [[Tomas - Státnice/Databáze a web/Web/Booleovský model\|Popsat booleovské a vektorové modely, word2vec]]
 -  [[Tomas - Státnice/Databáze a web/Web/Vyhledávání Hypertext, Ranking, PageRank\|Popsat vyhledávání v hypertextu, ranking, PageRank]]
 -  [[Tomas - Státnice/Databáze a web/Web/SEO\|Vysvětlit optimalizaci webových stránek pro vyhledávače]]
