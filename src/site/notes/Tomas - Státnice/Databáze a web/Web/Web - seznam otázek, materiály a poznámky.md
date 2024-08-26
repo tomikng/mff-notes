@@ -59,7 +59,7 @@
 -  [[Tomas - Státnice/Databáze a web/Web/SEO\|Vysvětlit optimalizaci webových stránek pro vyhledávače]]
 -  Popsat metrické indexování podobnosti (filtrování pomocí pivotů, maticové, stromové, hašované a hybridní indexy) [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Metricke indexovani podobnosti\|Metricke indexovani podobnosti]]
 -  Uvést základní formáty spojené s vizuálními daty (konkrétně BMP, JPEG, MP4) [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Zakladni formaty spojene s vizualni daty\|Zakladni formaty spojene s vizualni daty]]
--  Vysvětlit základní principy komprese videa
+-  Vysvětlit základní principy komprese videa [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Komprese videa\|Komprese videa]]
 -  Popsat algoritmy detekce střihů ve videu pomocí podobnosti snímků a konvolučních sítí
 -  Formalizovat a vysvětlit základní podobnostní model (deskriptor, funkce podobnosti, Kosinova a Euklidovská vzdálenost)
 -  Vysvětlit principy kombinace více modelů (early/late fusion)
