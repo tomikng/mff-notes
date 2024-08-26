@@ -57,7 +57,7 @@
 -  [[Tomas - Státnice/Databáze a web/Web/Booleovský model\|Popsat booleovské a vektorové modely, word2vec]]
 -  [[Tomas - Státnice/Databáze a web/Web/Vyhledávání Hypertext, Ranking, PageRank\|Popsat vyhledávání v hypertextu, ranking, PageRank]]
 -  [[Tomas - Státnice/Databáze a web/Web/SEO\|Vysvětlit optimalizaci webových stránek pro vyhledávače]]
--  Popsat metrické indexování podobnosti (filtrování pomocí pivotů, maticové, stromové, hašované a hybridní indexy)
+-  Popsat metrické indexování podobnosti (filtrování pomocí pivotů, maticové, stromové, hašované a hybridní indexy) [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Metricke indexovani podobnosti\|Metricke indexovani podobnosti]]
 -  Uvést základní formáty spojené s vizuálními daty (konkrétně BMP, JPEG, MP4)
 -  Vysvětlit základní principy komprese videa
 -  Popsat algoritmy detekce střihů ve videu pomocí podobnosti snímků a konvolučních sítí
