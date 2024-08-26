@@ -22,7 +22,7 @@ Hierarchické indexy slouží k efektivní organizaci a vyhledávání záznamů
 ## B-Stromy
 
 ### Struktura B-stromu
-B-strom je vyvážený m-ární strom, kde každý uzel může mít až \(m\) dětí. Kořenový uzel musí mít alespoň dvě děti, pokud není listem, a každý vnitřní uzel kromě kořene má alespoň \(\lceil m/2 \rceil\) dětí.
+B-strom je vyvážený m-ární strom, kde každý uzel může mít až \(m\) dětí. Kořenový uzel musí mít alespoň dvě děti, pokud není listem, a každý vnitřní uzel kromě kořene má alespoň $\lceil m/2 \rceil$ dětí.
 
 #### Příklad Struktury B-Stromu
 Zde je příklad jednoduchého B-stromu s pořadím \(m = 3\):
