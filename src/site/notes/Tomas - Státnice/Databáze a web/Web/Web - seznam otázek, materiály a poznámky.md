@@ -69,4 +69,4 @@
 -  Popsat techniky vizualizace výsledků hledání v gridu pomocí různých technik zobrazení rankované množiny
 -  Popsat a vysvětlit možnosti zobrazení obrázkových dat pomocí SOM (self-organizing map)
 -  Popsat algoritmus řazení obrázkových dat ve 2D gridu (self-sorting map)
--  Popsat techniky vyhodnocování efektivity vyhledávacího modelu (zejména pojmy přesnost, úplnost, mAP, F1-score), Popsat možnosti vyhodnocování efektivity interaktivních systémů
+-  Popsat techniky vyhodnocování efektivity vyhledávacího modelu (zejména pojmy přesnost, úplnost, mAP, F1-score), Popsat možnosti vyhodnocování efektivity interaktivních systémů [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Vyhodnocovani efeketivity vyhledavaciho modelu\|Vyhodnocovani efeketivity vyhledavaciho modelu]]
