@@ -64,8 +64,8 @@
 -  Vysvětlit základní principy komprese videa [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Komprese videa\|Komprese videa]]
 -  Popsat algoritmy detekce střihů ve videu pomocí podobnosti snímků a konvolučních sítí [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Detekce strihu\|Detekce strihu]]
 -  Formalizovat a vysvětlit základní podobnostní model (deskriptor, funkce podobnosti, Kosinova a Euklidovská vzdálenost) [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Podobnostni model\|Podobnostni model]]
--  Vysvětlit principy kombinace více modelů (early/late fusion)
--  Vysvětlit způsob vyhledávání a klasifikace v obrázkové databázi na základě textu s využitím neuronové sítě CLIP
+-  Vysvětlit principy kombinace více modelů (early/late fusion) [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Kombinace vide modelu (multi-modal)\|Kombinace vide modelu (multi-modal)]]
+-  Vysvětlit způsob vyhledávání a klasifikace v obrázkové databázi na základě textu s využitím neuronové sítě CLIP [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/CLIP\|CLIP]]
 -  Popsat techniky vizualizace výsledků hledání v gridu pomocí různých technik zobrazení rankované množiny [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Self sorting map + SOM\|Self sorting map + SOM]]
 -  Popsat a vysvětlit možnosti zobrazení obrázkových dat pomocí SOM (self-organizing map), Popsat algoritmus řazení obrázkových dat ve 2D gridu (self-sorting map) [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Self sorting map + SOM\|Self sorting map + SOM]]
 -  Popsat techniky vyhodnocování efektivity vyhledávacího modelu (zejména pojmy přesnost, úplnost, mAP, F1-score), Popsat možnosti vyhodnocování efektivity interaktivních systémů [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Vyhodnocovani efeketivity vyhledavaciho modelu\|Vyhodnocovani efeketivity vyhledavaciho modelu]]
