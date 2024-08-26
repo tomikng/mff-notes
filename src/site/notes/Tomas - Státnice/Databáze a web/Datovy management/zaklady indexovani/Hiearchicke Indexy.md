@@ -48,7 +48,7 @@ V tomto příkladu:
    - Vkládání nového klíče může způsobit, že uzel přeteče (má více než \(m-1\) klíčů). V takovém případě se uzel rozdělí a střední klíč se přesune do rodičovského uzlu.
    
 2. **Mazání:**
-   - Mazání klíče může způsobit, že uzel bude mít méně než \(\lceil m/2 \rceil - 1\) klíčů. V takovém případě se uzly mohou spojit nebo se záznamy mohou redistribuovat mezi sousedními uzly.
+   - Mazání klíče může způsobit, že uzel bude mít méně než $\lceil m/2 \rceil - 1$ klíčů. V takovém případě se uzly mohou spojit nebo se záznamy mohou redistribuovat mezi sousedními uzly.
 
 ### Modifikace B-Stromu
 
