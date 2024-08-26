@@ -62,12 +62,11 @@
 -  Popsat metrické indexování podobnosti (filtrování pomocí pivotů, maticové, stromové, hašované a hybridní indexy) [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Metricke indexovani podobnosti\|Metricke indexovani podobnosti]]
 -  Uvést základní formáty spojené s vizuálními daty (konkrétně BMP, JPEG, MP4) [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Zakladni formaty spojene s vizualni daty\|Zakladni formaty spojene s vizualni daty]]
 -  Vysvětlit základní principy komprese videa [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Komprese videa\|Komprese videa]]
--  Popsat algoritmy detekce střihů ve videu pomocí podobnosti snímků a konvolučních sítí
+-  Popsat algoritmy detekce střihů ve videu pomocí podobnosti snímků a konvolučních sítí [[Tomas - Státnice/Databáze a web/Web/Vyhledavani na webu a v multimedialnich databazich/Detekce strihu\|Detekce strihu]]
 -  Formalizovat a vysvětlit základní podobnostní model (deskriptor, funkce podobnosti, Kosinova a Euklidovská vzdálenost)
 -  Vysvětlit principy kombinace více modelů (early/late fusion)
 -  Vysvětlit způsob vyhledávání a klasifikace v obrázkové databázi na základě textu s využitím neuronové sítě CLIP
 -  Popsat techniky vizualizace výsledků hledání v gridu pomocí různých technik zobrazení rankované množiny
 -  Popsat a vysvětlit možnosti zobrazení obrázkových dat pomocí SOM (self-organizing map)
 -  Popsat algoritmus řazení obrázkových dat ve 2D gridu (self-sorting map)
--  Popsat techniky vyhodnocování efektivity vyhledávacího modelu (zejména pojmy přesnost, úplnost, mAP, F1-score)
--  Popsat možnosti vyhodnocování efektivity interaktivních systémů
+-  Popsat techniky vyhodnocování efektivity vyhledávacího modelu (zejména pojmy přesnost, úplnost, mAP, F1-score), Popsat možnosti vyhodnocování efektivity interaktivních systémů
