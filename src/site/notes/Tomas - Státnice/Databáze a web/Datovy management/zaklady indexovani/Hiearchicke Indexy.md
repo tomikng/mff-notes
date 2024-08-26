@@ -9,6 +9,7 @@
 > Stromy jsou vygenerovane a mohou byt spatne, jeste jsem je neupravil.
 
 # Hierarchické Indexy
+[📹](https://www.youtube.com/watch?v=JQvcE-1ZWcM&list=PLs_965odMumfDxeuVX9TQnqGOomGf0ulE&index=18)
 
 **Hierarchické indexy** jsou klíčovým prvkem v databázových systémech, které umožňují efektivní vyhledávání a správu dat. V této části se zaměříme na principy hierarchických indexů, vysvětlíme strukturu B-stromu, a popíšeme jeho modifikace, jako jsou B+ strom a B* strom.
 ## K čemu slouží hierarchické indexy?

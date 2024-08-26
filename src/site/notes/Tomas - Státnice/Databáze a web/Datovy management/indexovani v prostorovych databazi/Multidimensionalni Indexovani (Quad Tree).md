@@ -3,7 +3,7 @@
 ---
 
 > [!NOTE] ChatGPT
-> Vygenerováno pomocí ChatGPT na základě přednášek od Klimka
+> Vygenerováno pomocí ChatGPT na základě přednášek od Holubovy
 
 > [!Danger] Stromy
 > Stromy jsou vygenerovane a mohou byt spatne, jeste jsem je neupravil.
