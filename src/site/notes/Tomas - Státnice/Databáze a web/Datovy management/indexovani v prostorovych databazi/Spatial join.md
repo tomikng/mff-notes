@@ -9,7 +9,7 @@
 
 #### **Princip prostorového spojení**
 
-Prostorové spojení je proces, při kterém se kombinují dva soubory prostorových objektů na základě určité prostorové relace, jako je například průnik, blízkost nebo zahrnutí. Na rozdíl od tradičních relačních spojení, které pracují s jednorozměrnými daty, prostorová spojení musí pracovat s vícerozměrnými daty, což přináší specifické výzvy a problémy.
+**Prostorové spojení je proces, při kterém se kombinují dva soubory prostorových objektů na základě určité prostorové relace, jako je například průnik, blízkost nebo zahrnutí.** Na rozdíl od tradičních relačních spojení, které pracují s jednorozměrnými daty, prostorová spojení musí pracovat s vícerozměrnými daty, což přináší specifické výzvy a problémy.
 
 Například, pokud máme dva soubory geografických objektů, jako jsou města a řeky, prostorové spojení by mohlo identifikovat všechny páry měst a řek, které se protínají.
 
