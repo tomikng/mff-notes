@@ -11,8 +11,38 @@
 Rankovaná množina představuje uspořádání datových bodů (například výsledků hledání) na základě jejich relevance k zadanému dotazu. Každý datový bod je ohodnocen (rankován) podle určité metriky, která určuje jeho pořadí. V gridové vizualizaci se tyto body uspořádají podle jejich ranku, obvykle od nejrelevantnějších (nejvyšší hodnocení) po méně relevantní.
 
 **Vizualizace rankované množiny:**
-- **Lineární uspořádání:** Jednoduchý způsob, jak zobrazit rankovanou množinu, je v řádcích nebo sloupcích, kde jsou nejrelevantnější výsledky na začátku a méně relevantní na konci. To umožňuje rychlou orientaci v datech.
-- **Gridové uspořádání:** Výsledky mohou být také zobrazeny v mřížce, kde je relevance reprezentována například polohou na ose nebo intenzitou barvy, čímž je umožněno rychlé porovnání více výsledků vedle sebe.
+Techniky vizualizace výsledků hledání v gridu pomocí zobrazení rankované množiny jsou klíčové pro usnadnění uživatelského přístupu k relevantním informacím. Různé techniky zobrazení umožňují efektivní uspořádání objektů na základě jejich relevance, což zvyšuje uživatelskou přívětivost a rychlost nalezení požadovaných výsledků. Níže jsou popsány některé z hlavních technik:
+
+##### 1. **Standardní grid**
+   - **Popis**: Výsledky jsou uspořádány v jednoduché mřížce, kde jsou objekty řazeny podle relevance odshora dolů a zleva doprava.
+   - **Výhody**: Intuitivní a jednoduché na pochopení. Uživatelé mohou snadno procházet výsledky.
+   - **Nevýhody**: Může být neefektivní při velkém počtu objektů, protože uživatelé musí často procházet mnoho výsledků, aby našli ty nejrelevantnější.
+
+##### 2. **Zvýraznění rohů**
+   - **Popis**: Objekty s nejvyšší relevancí jsou umístěny v rozích nebo středu gridu, kde je větší pravděpodobnost, že na ně uživatel klikne.
+   - **Výhody**: Tato technika zvyšuje šanci, že si uživatel všimne a klikne na nejdůležitější výsledky.
+   - **Nevýhody**: Může být méně intuitivní, protože uživatelé mohou očekávat nejrelevantnější výsledky na jiných místech (například nahoře).
+
+##### 3. **Progresivní zveřejnění (Zig-Zag vzor)**
+   - **Popis**: Tento přístup uspořádává výsledky v zig-zag vzoru, což může být efektivní pro zobrazování časově nebo kontextově řazených dat.
+   - **Výhody**: Pomáhá vizualizovat a sledovat časové nebo sekvenční vztahy mezi objekty, což je užitečné v aplikacích, kde je sledování pořadí důležité.
+   - **Nevýhody**: Může být méně přehledný pro uživatele, kteří nejsou obeznámeni s tímto typem uspořádání.
+
+##### 4. **Self-Sorting Map (SSM)**
+   - **Popis**: Algoritmus organizuje data v gridu tak, aby podobná data byla umístěna blízko sebe. Toto je zvláště užitečné při vizualizaci obrázků, kde chceme, aby vizuálně podobné obrázky byly ve stejné oblasti gridu.
+   - **Výhody**: Umožňuje uživatelům rychle najít podobné objekty bez nutnosti procházet celou množinu.
+   - **Nevýhody**: Vyžaduje složitější algoritmy pro správné uspořádání dat, což může být náročné na výpočetní zdroje.
+
+##### 5. **Techniky zvýraznění relevance**
+   - **Popis**: Zvýraznění nejrelevantnějších objektů pomocí vizuálních efektů, jako jsou větší velikost, jiné barvy nebo animace.
+   - **Výhody**: Uživatelé rychle rozpoznají nejdůležitější výsledky.
+   - **Nevýhody**: Příliš mnoho zvýraznění může vést k vizuálnímu přetížení a snížení uživatelské přehlednosti.
+
+##### 6. **Časově a kontextově zaměřené zobrazení**
+   - **Popis**: Zobrazuje výsledky v kontextu jejich časového nebo jiného vztahu, například podle data nebo tématu.
+   - **Výhody**: Užitečné v aplikacích, kde je důležité sledovat souvislosti mezi výsledky.
+   - **Nevýhody**: Může být méně efektivní pro obecné vyhledávání, kde čas nebo kontext nejsou klíčové.
+
 ![Pasted image 20240827183510.png](/img/user/assets/img/Pasted%20image%2020240827183510.png)
 
 **Příklad:**
@@ -29,6 +59,7 @@ Self-sorting map (SSM) je technika, která automaticky seřadí prvky na 2D grid
 Pokud vizualizujete výsledky vyhledávání obrázků, SSM může umístit obrázky s podobnou barevností nebo kompozicí vedle sebe, čímž se vytvoří klastery, například všechny obrázky s dominantní modrou barvou budou blízko u sebe.
 
 #### 3. **Self-organizing map (SOM)**
+https://www.youtube.com/watch?v=H9H6s-x-0YE
 Self-organizing map (SOM) je umělá neuronová síť, která se používá k vizualizaci a organizaci dat na 2D gridu. SOM vytváří mapu, kde jsou podobné datové body umístěny blízko sebe, což umožňuje vizualizovat a analyzovat strukturu dat.
 
 **Vizualizace pomocí SOM:**
