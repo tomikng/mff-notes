@@ -13,9 +13,9 @@ Neuronová síť CLIP (Contrastive Language-Image Pre-Training) je model vyvinut
 
   
 
-#### 1. ****Jak CLIP funguje?****
+#### Jak CLIP funguje?
 
-CLIP kombinuje textové a obrazové vstupy tím, že je převádí do společného ****embedding prostoru****. V tomto prostoru jsou jak textové dotazy, tak obrázky reprezentovány jako vektory. Tyto vektory jsou následně porovnávány pomocí ****kosinové podobnosti****, která měří úhel mezi dvěma vektory, a určuje tak jejich vzájemnou podobnost.
+CLIP kombinuje textové a obrazové vstupy tím, že je převádí do společného ***embedding* prostoru**. V tomto prostoru jsou jak textové dotazy, tak obrázky reprezentovány jako vektory. Tyto vektory jsou následně porovnávány pomocí **kosinové podobnosti**, která měří úhel mezi dvěma vektory, a určuje tak jejich vzájemnou podobnost.
 
   
 
@@ -25,17 +25,17 @@ Představte si, že máte databázi obrázků a zadáte textový dotaz „červe
 
   
 
-#### 2. ****Základní stavební prvky architektury CLIP****
+#### 2. Základní stavební prvky architektury CLIP
 
   
 
-##### 2.1 ****Textový a obrazový enkodér****
+##### 2.1 Textový a obrazový enkodér
 
 CLIP se skládá ze dvou hlavních částí:
 
-- ****Textový enkodér****: Převádí textový vstup (např. popis obrázku) do vektorové podoby.
+- **Textový enkodér**: Převádí textový vstup (např. popis obrázku) do vektorové podoby.
 
-- ****Obrazový enkodér****: Převádí obrázek do vektorové podoby.
+- **Obrazový enkodér**: Převádí obrázek do vektorové podoby.
 
   
 
@@ -43,13 +43,13 @@ Oba tyto enkodéry jsou trénovány tak, aby překládaly texty a obrázky do sp
 
   
 
-##### 2.2 ****Společný embedding prostor****
+##### 2.2 Společný embedding prostor
 
 Vektorové reprezentace z textového a obrazového enkodéru jsou umístěny do jednoho společného prostoru. V tomto prostoru jsou podobné objekty (např. obrázek červeného auta a textový popis „červené auto“) umístěny blízko sebe.
 
   
 
-##### 2.3 ****Inference v CLIP****
+##### 2.3 Inference v CLIP
 
 Při inferenci, tedy při vyhledávání nebo klasifikaci nových obrázků na základě textu, probíhají následující kroky:
 
