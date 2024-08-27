@@ -13,6 +13,7 @@ Rankovaná množina představuje uspořádání datových bodů (například vý
 **Vizualizace rankované množiny:**
 - **Lineární uspořádání:** Jednoduchý způsob, jak zobrazit rankovanou množinu, je v řádcích nebo sloupcích, kde jsou nejrelevantnější výsledky na začátku a méně relevantní na konci. To umožňuje rychlou orientaci v datech.
 - **Gridové uspořádání:** Výsledky mohou být také zobrazeny v mřížce, kde je relevance reprezentována například polohou na ose nebo intenzitou barvy, čímž je umožněno rychlé porovnání více výsledků vedle sebe.
+![Pasted image 20240827183510.png](/img/user/Pasted%20image%2020240827183510.png)
 
 **Příklad:**
 Pokud máte výsledky vyhledávání obrázků na základě dotazu "hory", výsledky mohou být seřazeny od nejvíce k nejméně relevantním obrázkům, přičemž nejrelevantnější jsou umístěny v horním levém rohu mřížky.
