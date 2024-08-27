@@ -36,7 +36,6 @@ Vektorové reprezentace z textového a obrazového enkodéru jsou umístěny do 
 Při inferenci, tedy při vyhledávání nebo klasifikaci nových obrázků na základě textu, probíhají následující kroky:
 
 1. **Převod textu a obrázků do vektorů**: Textový dotaz i obrázky z databáze jsou převedeny do vektorových reprezentací prostřednictvím svých enkodérů.
-
 2. **Porovnání vektorů**: Vektor textu je porovnán s vektory obrázků pomocí kosinové podobnosti. Obrázky, jejichž vektory jsou nejvíce podobné vektoru textu, jsou považovány za nejrelevantnější.
 3. **Výběr nejpodobnějších obrázků**: CLIP vrátí obrázky, které mají největší kosinovou podobnost s textovým dotazem.
 
