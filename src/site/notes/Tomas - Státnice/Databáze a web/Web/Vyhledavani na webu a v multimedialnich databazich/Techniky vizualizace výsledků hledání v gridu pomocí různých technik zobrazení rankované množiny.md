@@ -66,6 +66,20 @@ Self-organizing map (SOM) je umělá neuronová síť, která se používá k vi
 - **Topologické uspořádání:** SOM udržuje topologii dat, což znamená, že podobná data jsou umístěna vedle sebe. Grid tak reflektuje strukturu datové množiny.
 - **Barvové nebo tvarové označení:** Pro zvýraznění různých klastrů na SOM lze použít různé barvy nebo tvary. To umožňuje snadnější identifikaci oblastí s vysokou koncentrací podobných výsledků.
 
+##### Jak funguje přirazení klasifikace
+Máme 2D grid s $n$ vstupy (obrazky) a mame $m$ neuronu (klasifikaci).
+
+
+```
+Pro vsechny vstupy:
+	Vezmeme nahodny vstup
+	Spocitame pro nej vitezny neuron (klasifikaci)
+	Upravime vzdalenost neuronu (vsech protoze neurony na sobe zavisi)
+
+Vratime klasifikace pro vsechny vstupy
+``` 
+
+
 **Příklad:**
 Pokud máte velkou množinu obrázků různých druhů ovoce, SOM může uspořádat obrázky tak, že obrázky stejného ovoce budou blízko sebe, a výsledná mřížka bude mít oblasti reprezentující různé druhy ovoce (např. oblast s jablky, oblast s pomeranči).
 
