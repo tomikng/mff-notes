@@ -39,7 +39,7 @@ Metrické metody přístupu zahrnují různé techniky indexování, které vyu�
 ```
 ```
 +--------+-----------------+---------+
-| Přítel | Vzdálenost od A | Zahrnout? |
+| Přítel | Vzdálenost od A | Zahrnout?|
 +--------+-----------------+---------+
 | Alice  | 0               | Ano     |
 | Bob    | 2               | Ne      |

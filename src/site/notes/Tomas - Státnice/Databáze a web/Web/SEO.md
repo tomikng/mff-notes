@@ -4,7 +4,9 @@
 
 > [!NOTE] ChatGPT
 > Vygenerováno pomocí ChatGPT na základě přednášek
+
 Optimalizace webových stránek pro vyhledávače, známá také jako SEO (Search Engine Optimization), je metodologie zaměřená na úpravu webových stránek tak, aby se lépe umisťovaly ve výsledcích vyhledávání na internetu. SEO je klíčové pro dosažení vyšší návštěvnosti webových stránek, což může významně přispět k úspěchu dané firmy nebo projektu.
+![Pasted image 20240827110044.png](/img/user/assets/img/Pasted%20image%2020240827110044.png)
 
 ### Základní principy SEO
 
