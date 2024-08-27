@@ -79,3 +79,7 @@ Každá z těchto technik má své specifické výhody pro vizualizaci rankovan�
 
 Tyto techniky jsou vhodné pro různé scénáře a umožňují efektivní organizaci a vizualizaci dat v gridovém formátu, čímž zvyšují přehlednost a usnadňují vyhledávání relevantních informací.
 
+### Key Differences:
+
+- **SOM**: The output is a topologically organized 2D grid, emphasizing the preservation of relationships in high-dimensional data.
+- **SSM**: Focuses more on arranging data in a 2D grid based on predefined similarity measures, without necessarily involving a learning process like SOM.
