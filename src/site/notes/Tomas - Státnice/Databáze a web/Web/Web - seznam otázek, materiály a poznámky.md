@@ -52,7 +52,7 @@
 -  Popsat problémy, které způsobuje dynamičnost doporučovacího procesu (např. cold start, new item problem, online model updates)
 -  Vysvětlit princip fungování, výhody a nevýhody kolaborativního filtrování
 -  Vysvětlit funkci jednoduchých algoritmů (user/item-based KNN, varianty faktorizace matic) [📹](https://www.youtube.com/watch?v=ZspR5PZemcs)
-	- ![Pasted image 20240827140243.png](/img/user/Pasted%20image%2020240827140243.png)
+	- ![Pasted image 20240827140243.png](/img/user/assets/img/Pasted%20image%2020240827140243.png)
 -  Vysvětlit princip fungování, výhody a nevýhody content-based a knowledge-based doporučování
 -  Vysvětlit cíle, rozdíly a omezení v offline/online/user-studies hodnocení doporučovacích systémů a uvést typické hodnotící metriky
 
