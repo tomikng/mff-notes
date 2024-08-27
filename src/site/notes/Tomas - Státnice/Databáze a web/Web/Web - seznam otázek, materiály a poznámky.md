@@ -18,10 +18,10 @@
 -  Na příkladu ukázat využití HTML formulářů včetně validace vstupních polí
 -  Vysvětlit principy fungování CSS: syntaxe, specificita selektorů, vložení do stránky
 -  Vytvořit responzivní layout stránky v rozsahu: menu, hlavní obsah se sloupci, patička
-### [[Tomas - Státnice/Databáze a web/Web/Návrhové vzory\|Architektury, základní principy, návrhové vzory a techniky webových aplikací]]
+### [[Tomas - Státnice/Databáze a web/Web/Návrhové vzory\|Architektury, základní principy, návrhové vzory a techniky webových aplikací]] ⚠️
 -  Vysvětlit použití návrhových vzorů: Front Controller, MVC/MVP, MVVC
 
-### [[Tomas - Státnice/Databáze a web/Web/Programování na straně klienta, JavaScript, standardní API v prohlížeči\|Programování na straně klienta, JavaScript, standardní API v prohlížeči]]
+### [[Tomas - Státnice/Databáze a web/Web/Programování na straně klienta, JavaScript, standardní API v prohlížeči\|Programování na straně klienta, JavaScript, standardní API v prohlížeči]] ⚠️
 -  Napsat klientský kód (JavaScript), který v reakci na událost provede dotaz na server, zpracuje odpověď a modifikuje DOM
 -  Uvést příklady standardních API dostupných v prohlížeči
 -  Vysvětlit a použít mechanizmy pro asynchronní programování v JavaScriptu: callbacks, promises, async/await, event loop
@@ -42,7 +42,7 @@
 -  Na příkladu demonstrovat [[Tomas - Státnice/Databáze a web/Web/Exercises/PHP#PHP Interleaving\|PHP interleaving]]
 -  [[Tomas - Státnice/Databáze a web/Web/Exercises/PHP#Příklad PHP stránky\|Vytvořit jednoduchou stránku v PHP, s využitím HTTP wrapperu a připojením k SQL databázi]]
 
-### Základy bezpečnosti webových aplikací
+### Základy bezpečnosti webových aplikací 
 -  Vysvětlit vztah HTTPS a HTTP, popsat výhody
 -  Na příkladu (JWT) vysvětlit použití autentizačních tokenů
 -  Identifikovat a popsat základní bezpečností rizika webových aplikací
@@ -54,7 +54,7 @@
 -  Vysvětlit funkci jednoduchých algoritmů (user/item-based KNN, varianty faktorizace matic) [📹](https://www.youtube.com/watch?v=ZspR5PZemcs)
 	- ![Pasted image 20240827140243.png](/img/user/assets/img/Pasted%20image%2020240827140243.png)
 -  Vysvětlit princip fungování, výhody a nevýhody content-based a knowledge-based doporučování
--  Vysvětlit cíle, rozdíly a omezení v offline/online/user-studies hodnocení doporučovacích systémů a uvést typické hodnotící metriky
+-  Vysvětlit cíle, rozdíly a omezení v offline/online/user-studies hodnocení doporučovacích systémů a uvést typické hodnotící metriky [[Tomas - Státnice/Databáze a web/Web/Doporučovací systémy/Cile a hodnoceni RS\|Cile a hodnoceni RS]]
 
 ### Vyhledávání na webu a v multimediálních databázích 
 -  [[Tomas - Státnice/Databáze a web/Web/Booleovský model\|Popsat booleovské a vektorové modely, word2vec]]
