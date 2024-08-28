@@ -4,7 +4,7 @@
 
 
 # Programmovaci jazyky
-[[Tomas - Státnice/Společná informatika/Programovaci jazyk/Programovaci jazyky - otazky a poznamky\|Programovaci jazyky - otazky a poznamky]]
+[[Tomas - Státnice/Společná informatika/Programovaci jazyk/Souvisejici kontrukty jazyku/Programovaci jazyky - otazky a poznamky\|Programovaci jazyky - otazky a poznamky]]
 # Architektura počítačů a operačních systémů
 [[Tomas - Státnice/Společná informatika/architektury os a pc/Architektury OS a PC - Seznam otázek a materiálů\|Architektury OS a PC - Seznam otázek a materiálů]]
 # Autogramy
