@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/tomas-statnice/spolecna-informatika/programovaci-jazyk/primitivni-objektove-typy/reference-imutabilni-typy-a-boxing/","tags":["tomas","spolecna_informatika","programovaci_jazyky"],"noteIcon":""}
 ---
 
+
 #### Reference Typy
 V C# referenční typy, jako jsou třídy a pole, uchovávají odkazy na objekty uložené na haldě. Když dvě proměnné odkazují na stejný objekt, změny provedené prostřednictvím jedné proměnné ovlivní druhou, protože obě ukazují na stejný objekt v paměti.
 

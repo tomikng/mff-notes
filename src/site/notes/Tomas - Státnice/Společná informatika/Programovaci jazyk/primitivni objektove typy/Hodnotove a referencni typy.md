@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/tomas-statnice/spolecna-informatika/programovaci-jazyk/primitivni-objektove-typy/hodnotove-a-referencni-typy/","tags":["tomas","spolecna_informatika","programovaci_jazyky"],"noteIcon":""}
 ---
 
+![Pasted image 20240828135139.png](/img/user/assets/img/Pasted%20image%2020240828135139.png)
+
+![Pasted image 20240828135316.png](/img/user/assets/img/Pasted%20image%2020240828135316.png)
 #### Hodnotové typy
 Hodnotové typy v C# ukládají přímo data a jsou uloženy na zásobníku (stack). Mezi nejčastější hodnotové typy patří **čísla** (`int`, `double`, `float`, `decimal`) a **výčtové typy** (`enum`), které reprezentují pevně danou sadu konstant. Hodnotové typy jsou rychlé, protože práce se zásobníkem je obecně velmi efektivní.
 
