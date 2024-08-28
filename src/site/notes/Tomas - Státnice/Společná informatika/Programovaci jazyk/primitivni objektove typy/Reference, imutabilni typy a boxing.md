@@ -4,7 +4,7 @@
 
 
 #### Reference Typy
-V C# referenční typy, jako jsou třídy a pole, uchovávají odkazy na objekty uložené na haldě. Když dvě proměnné odkazují na stejný objekt, změny provedené prostřednictvím jedné proměnné ovlivní druhou, protože obě ukazují na stejný objekt v paměti.
+V C# [[Tomas - Státnice/Společná informatika/Programovaci jazyk/primitivni objektove typy/Hodnotove a referencni typy#Referenční typy\|referenční typy]], jako jsou třídy a pole, uchovávají odkazy na objekty uložené na haldě. Když dvě proměnné odkazují na stejný objekt, změny provedené prostřednictvím jedné proměnné ovlivní druhou, protože obě ukazují na stejný objekt v paměti.
 
 **Příklad:**
 ```csharp
