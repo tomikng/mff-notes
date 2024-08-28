@@ -13,6 +13,9 @@
 
 
 ### 2. **Časově Závislé Chyby (Race Conditions)**
+{ #158425}
+
+
    - **Definice:** K časově závislým chybám dochází, když více vláken přistupuje k sdíleným datům v paměti současně a jejich výsledek závisí na pořadí nebo načasování jejich plánování.
    - **Příklad:** Představme si třídu `List`, která má metodu `PushFront`, jež přidává nový uzel na začátek seznamu. Pokud dvě vlákna současně zavolají tuto metodu, může dojít k chybě:
 

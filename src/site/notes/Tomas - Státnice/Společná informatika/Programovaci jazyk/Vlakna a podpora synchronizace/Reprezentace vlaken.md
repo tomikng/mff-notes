@@ -2,10 +2,6 @@
 {"dg-publish":true,"permalink":"/tomas-statnice/spolecna-informatika/programovaci-jazyk/vlakna-a-podpora-synchronizace/reprezentace-vlaken/","tags":["tomas","spolecna_informatika","programovaci_jazyky"],"noteIcon":""}
 ---
 
-### Vlákna a podpora synchronizace v C#
-
-#### Reprezentace vláken v C#
-
 V C# jsou [[Tomas - Státnice/Společná informatika/architektury os a pc/Paralelní programování a synchronizace#^df6511\|vlákna]] (threads) reprezentována třídou `Thread` z jmenného prostoru `System.Threading`. Vlákno představuje nejmenší jednotku zpracování, která může být naplánována operačním systémem.
 
 **Příklad vytvoření a spuštění vlákna:**
