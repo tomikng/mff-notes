@@ -73,6 +73,50 @@ V tomto případě dvě vlákna současně zvyšují hodnotu proměnné `pocitad
    }
    ```
 
+**Priklad s Mutex**
+```csharp
+using System;
+using System.Threading;
+
+class Program
+{
+    // Vytvoření globálního mutexu
+    static Mutex mutex = new Mutex();
+
+    static void Main()
+    {
+        Thread vlakno1 = new Thread(Pracuj);
+        Thread vlakno2 = new Thread(Pracuj);
+
+        vlakno1.Start();
+        vlakno2.Start();
+
+        vlakno1.Join();
+        vlakno2.Join();
+
+        Console.WriteLine("Obě vlákna dokončena.");
+    }
+
+    static void Pracuj()
+    {
+        Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId} čeká na mutex...");
+        mutex.WaitOne(); // Čeká na získání mutexu
+
+        try
+        {
+            Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId} získal mutex, pracuje...");
+            Thread.Sleep(2000); // Simulace práce
+        }
+        finally
+        {
+            Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId} uvolňuje mutex.");
+            mutex.ReleaseMutex(); // Uvolnění mutexu
+        }
+    }
+}
+
+```
+
 3. **`AutoResetEvent` a `ManualResetEvent`**:
    - Tyto třídy umožňují vláknům čekat, dokud nejsou signalizovány k pokračování.
 

@@ -35,4 +35,9 @@
 2. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Vlakna a podpora synchronizace/Specifikace funkce vykonavane vlaknem a zakladni operace na vlakny\|Specifikace funkce vykonavane vlaknem a zakladni operace na vlakny]]
 3. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Vlakna a podpora synchronizace/Race conditions\|Race conditions]]
 ## Implementace základních prvků objektových jazyků.
+
+Vlastne je to vsechno nahore dohromady.
 ## Nativní a interpretovaný běh, řízení překladu a sestavení programu.
+![Pasted image 20240828164303.png](/img/user/assets/img/Pasted%20image%2020240828164303.png)
+1. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Nativní a interpretovaný běh, řízení překladu a sestavení programu./Reprezentace programu, bytecode, interpret jazyka\|Reprezentace programu, bytecode, interpret jazyka]]
+2. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Nativní a interpretovaný běh, řízení překladu a sestavení programu./JIT a AOT\|JIT a AOT]]
