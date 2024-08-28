@@ -33,6 +33,6 @@
 ## Vlákna a podpora synchronizace.
 1. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Vlakna a podpora synchronizace/Reprezentace vlaken\|Reprezentace vlaken]]
 2. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Vlakna a podpora synchronizace/Specifikace funkce vykonavane vlaknem a zakladni operace na vlakny\|Specifikace funkce vykonavane vlaknem a zakladni operace na vlakny]]
-3. 
+3. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Vlakna a podpora synchronizace/Race conditions\|Race conditions]]
 ## Implementace základních prvků objektových jazyků.
 ## Nativní a interpretovaný běh, řízení překladu a sestavení programu.
