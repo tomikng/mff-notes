@@ -46,4 +46,3 @@ Dynamicky typované jazyky určují typy během běhu programu, ne v době kompi
 
 **Příklad:** Python, JavaScript, Ruby
 
-Tyto principy výrazně ovlivňují přístup k psaní a ladění kódu v různých programovacích jazycích.
