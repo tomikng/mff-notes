@@ -23,7 +23,13 @@
 2. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Genericke typy a funkcionalni prvky/Typy reprezentujici funkce\|Typy reprezentujici funkce]]
 3. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Genericke typy a funkcionalni prvky/Lambda a funkcionalni rozhrani\|Lambda a funkcionalni rozhrani]]
 ## Manipulace se zdroji a mechanizmy pro ošetření chyb.
+1. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Manipulace se zdroji a mechanizmy pro osetreni chub/using\|using]]
+2. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Manipulace se zdroji a mechanizmy pro osetreni chub/Vyjimky\|Vyjimky]]
 ## Životní cyklus objektů a správa paměti.
+1. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Zivotni cyklus objektu a sprava paatei/Alokace\|Alokace]]
+2. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Zivotni cyklus objektu a sprava paatei/Inicializace\|Inicializace]]
+3. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Zivotni cyklus objektu a sprava paatei/Destrukce\|Destrukce]]
+4. [[Tomas - Státnice/Společná informatika/Programovaci jazyk/Zivotni cyklus objektu a sprava paatei/GC\|GC]]
 ## Vlákna a podpora synchronizace.
 ## Implementace základních prvků objektových jazyků.
 ## Nativní a interpretovaný běh, řízení překladu a sestavení programu.
