@@ -39,7 +39,7 @@
   - **Definice vyhledávacího stromu**
   - **Operace s nevyvažovanými stromy** 
 	  - 📄**188**
-  - **AVL stromy (definice)**
+  - **AVL stromy (definice)**  📄**191**
 
 #### **6. 🌀 Třídící algoritmy**
 - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s3)
