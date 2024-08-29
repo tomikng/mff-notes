@@ -50,6 +50,7 @@
 	  - [[Tomas - Státnice/Společná informatika/ads/Třídění/Quick Sort\|Quick Sort]]
 	  - https://www.youtube.com/watch?v=WprjBK0p6rw
   - **Dolní odhad složitosti porovnávacích třídicích algoritmů**
+	  - [[Tomas - Státnice/Společná informatika/ads/Třídění/Dolní odhad složitosti porovnávacích třídicích algoritmů\|Dolní odhad složitosti porovnávacích třídicích algoritmů]]
 
 #### **7. 🔗 Grafové algoritmy**
 - **DFS, BFS a jejich aplikace**  
