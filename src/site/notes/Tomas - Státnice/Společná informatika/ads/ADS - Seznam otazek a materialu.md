@@ -45,7 +45,9 @@
 > [!NOTE] Mergesort by asi taky bylo dobry umet
 - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s3)
   - **Primitivní třídicí algoritmy** (Bubblesort, Insertsort)
+	  - [[Tomas - Státnice/Společná informatika/ads/Třídění/primitivní třídicí algoritmy\|primitivní třídicí algoritmy]]
   - **Quicksort**
+	  - [[Tomas - Státnice/Společná informatika/ads/Třídění/Quick Sort\|Quick Sort]]
   - **Dolní odhad složitosti porovnávacích třídicích algoritmů**
 
 #### **7. 🔗 Grafové algoritmy**
