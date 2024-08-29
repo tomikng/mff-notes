@@ -42,6 +42,7 @@
   - **AVL stromy (definice)**  📄**191**
 
 #### **6. 🌀 Třídící algoritmy**
+> [!NOTE] Mergesort by asi taky bylo dobry umet
 - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s3)
   - **Primitivní třídicí algoritmy** (Bubblesort, Insertsort)
   - **Quicksort**
