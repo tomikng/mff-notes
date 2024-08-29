@@ -14,14 +14,16 @@
   - **Časová a prostorová složitost algoritmu**
   - **Měření velikosti dat**
   - **Složitost v nejlepším, nejhorším a průměrném případě**
-  - **Asymptotická notace** 📄**50**
+  - **Asymptotická notace** 
+	  - 📄**50**
 
 #### **3. 🧠 Třídy složitosti**
 - [Odkaz 1](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s19.3) 📄**476**  
 - [Odkaz 2](https://slama.dev/assets/priprava-na-statnice-mff-uk/pvnp.webp) 
   - **Třídy P a NP** - [🎥 YouTube video](https://www.youtube.com/watch?v=pQsdygaYcE4)
   - **Převoditelnost problémů, NP-těžkost a NP-úplnost**
-  - **Příklady NP-úplných problémů a převodů mezi nimi** 📄**468**
+  - **Příklady NP-úplných problémů a převodů mezi nimi** 
+	  - 📄**468**
 
 #### **4. ⚔️ Metoda "rozděl a panuj"**  `(⚠️ Bylo minule)`
 - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s10)
@@ -35,7 +37,8 @@
 #### **5. 🌳 Binární vyhledávací stromy**
 - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s8) 📄**185**
   - **Definice vyhledávacího stromu**
-  - **Operace s nevyvažovanými stromy** 📄**188**
+  - **Operace s nevyvažovanými stromy** 
+	  - 📄**188**
   - **AVL stromy (definice)**
 
 #### **6. 🌀 Třídící algoritmy**
@@ -50,9 +53,11 @@
   - [DFS vs BFS: StackOverflow](https://stackoverflow.com/questions/20429310/why-is-depth-first-search-claimed-to-be-space-efficient)
 - **Topologické třídění orientovaných grafů**
 - **Nejkratší cesty (Dijkstra, BF)**  
-  - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s6) 📄**6**
+  - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s6) 
+  - 📄**6**
 - **Minimální kostry (Jarník, Borůvka)**  
-  - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s7) 📄**7**
+  - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s7) 
+  - 📄**7**
 - **Toky v sítích (FF)**  
   - [Odkaz 1](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s14) 📄**14**  
   - [Odkaz 2](https://slama.dev/poznamky-z-prednasky/kombinatorika-a-grafy-i/#7-p%C5%99edn%C3%A1%C5%A1ka) 📄**7**
