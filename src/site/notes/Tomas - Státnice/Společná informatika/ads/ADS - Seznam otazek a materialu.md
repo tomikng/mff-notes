@@ -48,6 +48,7 @@
 	  - [[Tomas - Státnice/Společná informatika/ads/Třídění/primitivní třídicí algoritmy\|primitivní třídicí algoritmy]]
   - **Quicksort**
 	  - [[Tomas - Státnice/Společná informatika/ads/Třídění/Quick Sort\|Quick Sort]]
+	  - https://www.youtube.com/watch?v=WprjBK0p6rw
   - **Dolní odhad složitosti porovnávacích třídicích algoritmů**
 
 #### **7. 🔗 Grafové algoritmy**
