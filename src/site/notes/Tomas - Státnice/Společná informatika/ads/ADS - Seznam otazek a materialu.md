@@ -1,0 +1,38 @@
+---
+{"dg-publish":true,"permalink":"/tomas-statnice/spolecna-informatika/ads/ads-seznam-otazek-a-materialu/","tags":["tomas","spolecna_informatika","ads"],"noteIcon":""}
+---
+
+- **Algoritmy a datové stuktury**
+- ADS 1 a 2 [Průvodce](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf), [GA](https://slama.dev/assets/priprava-na-statnice-mff-uk/ga.pdf) 🃏
+
+- Časová a prostorová složitost algoritmů.  [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s2)
+	- čas a prostor výpočtu pro konkrétní vstup 📄46
+    - časová a prostorová složitost algoritmu 📄46
+    - měření velikosti dat📄46
+    - složitost v nejlepším, nejhorším a průměrném případě📄46
+    - asymptotická notace📄50
+- Třídy složitosti. [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s19.3) [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pvnp.webp) 📄476
+	- třídy P a NP [Youtube video](https://www.youtube.com/watch?v=pQsdygaYcE4)
+    - převoditelnost problémů, NP-těžkost a NP-úplnost
+    - příklady NP-úplných problémů a převodů mezi nimi
+- Metoda "rozděl a panuj". [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s10)
+	- princip rekurzivního dělení problému na podproblémy
+    - výpočet složitosti pomocí rekurentních rovnic
+    - Master theorem (kuchařková věta)
+    - aplikace
+	    - Mergesort
+        - násobení dlouhých čísel
+- Binarní vyhledávací stromy. [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s8)
+	- definice vyhledávacího stromu
+    - operace s nevyvažovanými stromy
+    - AVL stromy (definice)
+- Třídící algoritmy.  [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s3)
+	- primitivní třídicí algoritmy (Bubblesort, Insertsort)
+    - Quicksort
+    - dolní odhad složitosti porovnávacích třídicích algoritmů
+- Grafové algoritmy. [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s5) [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s6) [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s7)
+	- DFS, BFS a jejich aplikace. [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s5) [🔗](https://stackoverflow.com/questions/20429310/why-is-depth-first-search-claimed-to-be-space-efficient)
+	- Topologické třídění orientovaných grafů
+    - Nejkratší cesty (Dijkstra, BF). [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s6)
+    - Minimální kostry (Jarník, Borůvka). [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s7)
+    - Toky v sítích (FF). [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s14) [🔗](https://slama.dev/poznamky-z-prednasky/kombinatorika-a-grafy-i/#7-p%C5%99edn%C3%A1%C5%A1ka)
