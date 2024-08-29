@@ -14,15 +14,15 @@
 - Třídy složitosti. [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s19.3) [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pvnp.webp) 📄476
 	- třídy P a NP [Youtube video](https://www.youtube.com/watch?v=pQsdygaYcE4)
     - převoditelnost problémů, NP-těžkost a NP-úplnost
-    - příklady NP-úplných problémů a převodů mezi nimi
-- Metoda "rozděl a panuj". [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s10)
+    - příklady NP-úplných problémů a převodů mezi nimi📄468
+- Metoda "rozděl a panuj". [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s10) **(⚠️ Bylo minule)**
 	- princip rekurzivního dělení problému na podproblémy
     - výpočet složitosti pomocí rekurentních rovnic
     - Master theorem (kuchařková věta)
     - aplikace
 	    - Mergesort
         - násobení dlouhých čísel
-- Binarní vyhledávací stromy. [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s8)
+- Binarní vyhledávací stromy. [🔗](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s8) 📄185
 	- definice vyhledávacího stromu
     - operace s nevyvažovanými stromy
     - AVL stromy (definice)
