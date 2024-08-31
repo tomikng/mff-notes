@@ -165,7 +165,7 @@ $$p_{X, Y}(x, y) = p_X(x) p_Y (y)$$
 
 **Věta (součin n.n.v.):** *pro nezávislé diskrétní veličiny $X, Y$ platí 
 
-$$\mathbb{E}(XY) = \mathbb{E}(X)\mathbb{E}(Y)$$*
+$$\mathbb{E}(XY) = \mathbb{E}(X)\mathbb{E}(Y)$$
 
 **Definice (podmíněné rozdělení):** pro $X, Y$ d.n.v. a $A \in \mathcal{F}$ definujeme 
 
@@ -254,7 +254,7 @@ pokud integrál dává smysl.
 
 $$cov(X, Y) = \mathbb{E}\left(\left(X - \mathbb{E}X\right) (Y - \mathbb{E}Y)\right)$$
 
-**Lemma:** *
+**Lemma:**
 - $cov(X,  Y) = \mathbb{E}(XY) - \mathbb{E}(X) \mathbb{E}(Y)$
 - $X, Y$ nezávislé $\implies cov(X, Y) = 0$
 
@@ -272,7 +272,7 @@ $$P(X \ge a) \le \frac{\mathbb{E}(X)}{a}$$
 
 $$\lim_{n \to \infty} S_n = \mu$$
 
-skoro jistě (tj. s pravděpodobností $1$).*
+skoro jistě (tj. s pravděpodobností $1$).
 
 Věta říká, že je smyslupné průměrovat n.n.v. (s větším $n$ se přibližuje k $\mu$).
 
