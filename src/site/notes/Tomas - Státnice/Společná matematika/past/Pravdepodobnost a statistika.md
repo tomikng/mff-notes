@@ -15,10 +15,9 @@
 - je uzavřený na doplňky: $A \in \mathcal{F} \implies \Omega \setminus A \in \mathcal{F}$ a
 - je uzavřený na sjednocení: $A_1, A_2, \ldots\ \in \mathcal{F} \implies \bigcup_{i = 1}^{\infty} A_i \in \mathcal{F}$
 
-Množině $\Omega$ říkáme prostor elementárních jevů.
+> [!Info]- Množině $\Omega$ říkáme prostor elementárních jevů.
 { #c72cb3}
 
-> [!Info] Elementární jev
 > Elementární jevy jsou nejjednodušší možné výsledky náhodného pokusu. Jde o výsledek, který nelze dále rozdělit na menší části.
 > >[!example]- Příklad
 > >Představme si například házení mincí. V tomto případě existují dva elementární jevy: padne hlava $(H)$ nebo padne orel $(O)$. Tyto jevy jsou elementární, protože každý z nich představuje základní výsledek, který nemůžeme rozložit na menší části. Celý prostor všech možných výsledků, tedy množina $\{H,O\}\{H, O\}\{H,O\}$, se nazývá vzorový (nebo také pravděpodobnostní) prostor.
