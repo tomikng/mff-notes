@@ -69,11 +69,11 @@ $$P(A_1 \cap A_2 \cap \ldots \cap  A_n) = P(A_1)\ P(A_2 \mid A_1)\ P(A_3 \mid A_
 - $B_i \cap B_j = \emptyset$ pro $i \neq j$ a
 - $\bigcup_{i} B_i = \Omega$
 
-**Věta (rozbor všech možností):** *Pokud $A_1, \ldots, A_n \in \mathcal{F}$ je rozklad $\Omega$ a $A \in \mathcal{F}$, pak 
+**Věta (rozbor všech možností):** *Pokud $B_1, \ldots, B_n \in \mathcal{F}$ je rozklad $\Omega$ a $A \in \mathcal{F}$, pak 
 
 $$P(A) = \sum_{i } P(A \mid B_i) P(B_i)$$
 
-**Věta (Bayesova):** *pokud $B_1, B_2, \ldots$ je rozklad $\Omega$, $A \in \mathcal{F}$ a $P(A), P(B_j) >0 $, tak 
+**Věta (Bayesova):** *pokud $B_1, B_2, \ldots$ je rozklad $\Omega$, $A \in \mathcal{F}$ a $P(A), P(B_j) >0$, tak 
 { #2908ff}
 
 
@@ -88,7 +88,8 @@ což intuitivně dává smysl – při pravděpodobnosti $H \mid E$ musíme zohl
 
 ![Pasted image 20240831073621.png](/img/user/assets/img/Pasted%20image%2020240831073621.png)
 
-**Poznámka:** 3b1b udělal o Bayesově větě [pěkné video](https://www.youtube.com/watch?v=HZGCoVF3YvM), ze kterého jsem vykradl obrázek výše.
+> [!info] **Poznámka**
+>  3b1b udělal o Bayesově větě [pěkné video](https://www.youtube.com/watch?v=HZGCoVF3YvM), ze kterého jsem vykradl obrázek výše.
 
 **Definice (nezávislost jevů):** dva jevy jsou nezávislé, pokud $P(A \cap B) = P(A) P(B)$
 { #a27b19}
