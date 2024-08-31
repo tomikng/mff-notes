@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/tomas-statnice/spolecna-matematika/past/pravdepodobnost-a-statistika/","tags":["tomas","spolecna_matematika","past"],"noteIcon":""}
 ---
 
-# Pravděpodobnost a Statistika I
-
 > [!danger] **Upozornění:** 
 > Poznámky jsou od [Tomáše Slámy](https://www.slama.dev), kde jsou upravený do tohohle formátu pro tisk
 
@@ -98,7 +96,7 @@ $$p_X(x) = P(X = x) = P(\left\{\omega \in \Omega : X (\omega) = x\right\})$$
 - $p_X (1) = p$ a $p_X(0) = 1 - p$, jinak $p_X(k) = 0$
 
 ##### Binomiální
-- $X \ldots $ počet orlů při $n$ hodech nespravedlivou mincí (značíme $X \sim \mathrm{Bin}(n, p)$)
+- $X \ldots$ počet orlů při $n$ hodech nespravedlivou mincí (značíme $X \sim \mathrm{Bin}(n, p)$)
 - méně očivivně $p_X(k) = \binom{n}{k} p^k (1 - p)^{n - k}$
   - chceme, aby se $k$ hodů trefilo a $n - k$ netrefilo
 
@@ -119,7 +117,7 @@ pokud součet dává smysl.
 
 **Věta (LOTUS):** *pokud $X$ je n.v. a $g$ reálná funkce, tak 
 
-$$\mathbb{E}(g(X)) = \sum_{x \in \mathrm{Im}(X)} g(x) P(X = x)$$*
+$$\mathbb{E}(g(X)) = \sum_{x \in \mathrm{Im}(X)} g(x) P(X = x)$$
 
 **Lemma (vlastnosti střední hodnoty):** *nechť $X, Y$ jsou diskrétní n.v. a $a, b \in \mathbb{R}$; pak*
 
@@ -137,9 +135,9 @@ $$var(X) = \mathbb{E}\left(\left(X - \mathbb{E}X\right)^2\right)$$
 
 $$\sqrt{var(x)}$$
 
-**Věta:** *
+**Věta:** 
 
-$$var(X) = \mathbb{E}(X^2) - \mathbb{E}(X)^2$$*
+$$var(X) = \mathbb{E}(X^2) - \mathbb{E}(X)^2$$
 
 Přehled parametrů známých rozdělení:
 
