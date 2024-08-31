@@ -8,12 +8,21 @@
 ### Úvod
 
 **Definice (prostor jevů)** je $\mathcal{F} \subseteq \mathcal{P}(\Omega)$, pokud
+{ #74c74e}
+
 
 - $\emptyset \in \mathcal{F}$ a $\Omega \in \mathcal{F}$
 - je uzavřený na doplňky: $A \in \mathcal{F} \implies \Omega \setminus A \in \mathcal{F}$ a
 - je uzavřený na sjednocení: $A_1, A_2, \ldots\ \in \mathcal{F} \implies \bigcup_{i = 1}^{\infty} A_i \in \mathcal{F}$
 
 Množině $\Omega$ říkáme prostor elementárních jevů.
+{ #c72cb3}
+
+> [!Info] Elementární jev
+> Elementární jevy jsou nejjednodušší možné výsledky náhodného pokusu. Jde o výsledek, který nelze dále rozdělit na menší části.
+> >[!example]- Příklad
+> >Představme si například házení mincí. V tomto případě existují dva elementární jevy: padne hlava $(H)$ nebo padne orel $(O)$. Tyto jevy jsou elementární, protože každý z nich představuje základní výsledek, který nemůžeme rozložit na menší části. Celý prostor všech možných výsledků, tedy množina $\{H,O\}\{H, O\}\{H,O\}$, se nazývá vzorový (nebo také pravděpodobnostní) prostor.
+> 
 
 **Definice (pravděpodobnost)** je funkce $P : \mathcal{F} \mapsto \left[0, 1\right]$ se nazývá pravděpodobnost, pokud
 
@@ -35,6 +44,8 @@ Množině $\Omega$ říkáme prostor elementárních jevů.
 Znázornění konečného prostoru s uniformní pravděpodobností. dvojice hodů kostkou jsou elementární jevy ($\in \Omega$), vyznačené množiny jsou měřené jevy ($\in \mathcal{F}$).
 
 **Lemma (základní vlastnosti):** *$\forall A, B \in \mathcal{F}$ platí*
+{ #668710}
+
 
 - $P(A) + P(A^C) = 1$
 - $A \subseteq B \implies P(A) \le P(B)$  
@@ -42,6 +53,8 @@ Znázornění konečného prostoru s uniformní pravděpodobností. dvojice hod�
 - $P(A_1 \cup A_2 \cup \ldots) \le \sum P(A_i)$
 
 **Definice (podmíněná pravděpodobnost):** pokud $A, B \in \mathcal{F}$ a $P(B) > 0$, tak definujeme podmíněnou pravděpodobnost $A$ při $B$ jako 
+{ #ad640d}
+
 
 $$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
 
@@ -59,6 +72,8 @@ $$P(A_1 \cap A_2 \cap \ldots \cap  A_n) = P(A_1)\ P(A_2 \mid A_1)\ P(A_3 \mid A_
 $$P(A) = \sum_{i } P(A \mid B_i) P(B_i)$$
 
 **Věta (Bayesova):** *pokud $B_1, B_2, \ldots$ je rozklad $\Omega$, $A \in \mathcal{F}$ a $P(A), P(B_j) >0 $, tak 
+{ #2908ff}
+
 
 $$P(B_j \mid A) = \frac{P(B_j) P(A \mid B_j)}{P(A)}  = \frac{P(A \mid B_j) P(B_j)}
 {\sum_{i} P(A \mid B_i) P(B_i)}$$
@@ -74,6 +89,8 @@ což intuitivně dává smysl – při pravděpodobnosti $H \mid E$ musíme zohl
 **Poznámka:** 3b1b udělal o Bayesově větě [pěkné video](https://www.youtube.com/watch?v=HZGCoVF3YvM), ze kterého jsem vykradl obrázek výše.
 
 **Definice (nezávislost jevů):** dva jevy jsou nezávislé, pokud $P(A \cap B) = P(A) P(B)$
+{ #a27b19}
+
 
 ### Diskrétní náhodné veličiny
 
@@ -287,4 +304,3 @@ Ke zkoušce byla povolena A4 s libovolnými poznamkami, tady jsou moje (dostupn�
 
 ---
 ![[tahak.pdf]]
----
