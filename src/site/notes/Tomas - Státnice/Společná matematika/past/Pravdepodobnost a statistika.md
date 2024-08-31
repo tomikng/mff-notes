@@ -13,6 +13,7 @@
 
 - $\emptyset \in \mathcal{F}$ a $\Omega \in \mathcal{F}$
 - je uzavřený na doplňky: $A \in \mathcal{F} \implies \Omega \setminus A \in \mathcal{F}$ a
+	- Jinými slovy, pokud se jev A stal patři do $\mathcal{F}$, to znamená, že i jev A se nestal patři do $\mathcal{F}$
 - je uzavřený na sjednocení: $A_1, A_2, \ldots\ \in \mathcal{F} \implies \bigcup_{i = 1}^{\infty} A_i \in \mathcal{F}$
 
 > [!Info]- Množině $\Omega$ říkáme prostor elementárních jevů.
@@ -21,7 +22,9 @@
 > Elementární jevy jsou nejjednodušší možné výsledky náhodného pokusu. Jde o výsledek, který nelze dále rozdělit na menší části.
 > >[!example]- Příklad
 > >Představme si například házení mincí. V tomto případě existují dva elementární jevy: padne hlava $(H)$ nebo padne orel $(O)$. Tyto jevy jsou elementární, protože každý z nich představuje základní výsledek, který nemůžeme rozložit na menší části. Celý prostor všech možných výsledků, tedy množina $\{H,O\}\{H, O\}\{H,O\}$, se nazývá vzorový (nebo také pravděpodobnostní) prostor.
-> 
+>
+
+**Definice (Náhodný jev):** $A \in F$ se nazývá náhodný jev.
 
 **Definice (pravděpodobnost)** je funkce $P : \mathcal{F} \mapsto \left[0, 1\right]$ se nazývá pravděpodobnost, pokud
 
