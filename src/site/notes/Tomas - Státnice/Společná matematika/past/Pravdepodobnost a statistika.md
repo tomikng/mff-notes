@@ -112,7 +112,7 @@ $$p_X(x) = P(X = x) = P(\left\{\omega \in \Omega : X (\omega) = x\right\})$$
 #### Rozdělení 
 
 ##### Bernoulli
-- $X \cdot$ počet orlů při jednom hodu nespravedlivou mincí (značíme $X \sim \mathrm{Bern}(p)$)
+- $X \cdot$ počet orlů při **jednom** hodu nespravedlivou mincí (značíme $X \sim \mathrm{Bern}(p)$)
 - $p_X (1) = p$ a $p_X(0) = 1 - p$, jinak $p_X(k) = 0$
 
 ##### Binomiální
@@ -197,14 +197,14 @@ $$p_{X \mid Y} (x \mid y) = P(X = x \mid Y = y)$$
 
 $$p_{X \mid Y}(x \mid y) = \frac{P(X = x, Y = y)}{P(Y = y)} = \frac{p_{X, Y}(x, y)}{p_Y(y)} = \frac{p_{X, Y}(x, y)}{\sum_{x' \in \mathrm{Im}(X)} p_{X, Y} (x', y)}$$
 
-| $p_{X, Y}$ | $\ldots$ | 10 | 11 | 12 |
-|:----------:|:--------:|:--:|:--:|:--:|
-| 1 |  | $0$ | $0$ | $0$ |
-| 2 |  | $0$ | $0$ | $0$ |
-| 3 |  | $0$ | $0$ | $0$ |
-| 4 |  | $\frac{1}{36}$ | $0$ | $0$ |
-| 5 |  | $\frac{1}{36}$ | $\frac{1}{36}$ | $0$ |
-| 6 |  | $\frac{1}{36}$ | $\frac{1}{36}$ | $\frac{1}{36}$ |
+| $p_{X, Y}$ | $\ldots$ |       10       |       11       |       12       |
+| :--------: | :------: | :------------: | :------------: | :------------: |
+|     1      |          |      $0$       |      $0$       |      $0$       |
+|     2      |          |      $0$       |      $0$       |      $0$       |
+|     3      |          |      $0$       |      $0$       |      $0$       |
+|     4      |          | $\frac{1}{36}$ |      $0$       |      $0$       |
+|     5      |          | $\frac{1}{36}$ | $\frac{1}{36}$ |      $0$       |
+|     6      |          | $\frac{1}{36}$ | $\frac{1}{36}$ | $\frac{1}{36}$ |
 
 | $p_{X \mid Y}$ | $\ldots$ | 10 | 11 | 12 |
 |:--------------:|:--------:|:--:|:--:|:--:|

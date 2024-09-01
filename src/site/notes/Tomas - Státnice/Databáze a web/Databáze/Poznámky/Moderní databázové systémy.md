@@ -274,10 +274,63 @@ ORDER BY influence DESC
 
 ### Multi-model databáze a Polystore
 
-1. **Rozdíly, výhody a nevýhody:**
-   - **Multi-model databáze:** Tyto systémy podporují více datových modelů (např. dokumentový, grafový, relační) v rámci jednoho databázového systému. Umožňují ukládání a dotazování dat různými způsoby podle specifických potřeb aplikace.
-   - **Polystore:** Integruje více různých databázových systémů a umožňuje provádění dotazů napříč těmito systémy, aniž by bylo nutné data migrovat do jednoho systému.
+#### 1. Rozdíly, výhody a nevýhody
 
-2. **Příklad multi-model dotazu:**
-   - **Dotaz:** Umožňuje vyhledávat data z různých modelů v jednom dotazu, například kombinace relačních dat a dokumentových dat v jednom dotazu v rámci multi-model databáze.
-   - **Možné problémy:** Složitost a snížení výkonu kvůli nutnosti kombinovat různé dotazovací mechanizmy, složitější optimalizace a ladění.
+##### **Multi-model databáze:**
+
+**Rozdíly:**
+- **Podpora více datových modelů:** Multi-model databáze jsou navrženy tak, aby podporovaly různé datové modely (relační, dokumentové, grafové, sloupcové apod.) v rámci jednoho systému.
+- **Jednotné prostředí:** Uživatelé mohou v rámci jedné databáze přistupovat k různým typům dat, aniž by museli měnit databázový systém.
+- **Konzistence:** Data jsou uložena v rámci jednoho systému, což usnadňuje udržování konzistence a integrity dat.
+
+**Výhody:**
+- **Flexibilita:** Schopnost pracovat s různými datovými modely zajišťuje větší flexibilitu při vývoji aplikací, které vyžadují různé způsoby ukládání dat.
+- **Jednodušší správa:** Jednotný systém pro správu dat snižuje složitost správy více různých systémů.
+- **Výkon:** Optimalizace dotazů v rámci jednoho systému může být efektivnější než kombinace více různých systémů.
+
+**Nevýhody:**
+- **Složitost:** Implementace podpory pro více datových modelů v rámci jednoho systému může zvýšit složitost vývoje a správy.
+- **Výkonová omezení:** V některých případech může být obtížné optimalizovat výkon pro všechny podporované modely.
+- **Specifické limity:** Některé multi-model databáze mohou mít omezenou podporu pro pokročilé funkce jednotlivých modelů v porovnání s specializovanými systémy.
+
+##### **Polystore:**
+
+**Rozdíly:**
+- **Integrace více systémů:** Polystore se skládá z několika různých databázových systémů, z nichž každý může být optimalizován pro jiný datový model (např. grafová databáze, dokumentová databáze, relační databáze).
+- **Heterogenita:** Uživatelé mohou přistupovat k datům napříč těmito různými systémy prostřednictvím jednotného dotazovacího rozhraní.
+- **Rozložení dat:** Data jsou fyzicky umístěna v různých systémech, což může vyžadovat složitější synchronizaci a konzistenci.
+
+**Výhody:**
+- **Škálovatelnost:** Polystore může být škálovatelné podle potřeb aplikace, přičemž každý databázový systém může být optimalizován pro svůj specifický model.
+- **Optimalizace:** Každý systém v Polystore může být optimalizován pro konkrétní typ dotazů nebo datového modelu, což může zvýšit celkový výkon.
+- **Flexibilita:** Uživatelé mohou využívat různé specializované databázové systémy, aniž by museli data migrovat nebo měnit architekturu.
+
+**Nevýhody:**
+- **Složitost integrace:** Správa a integrace různých systémů mohou být náročné na zdroje a čas.
+- **Konzistence dat:** Udržení konzistence dat napříč různými systémy může být výzvou, zejména v reálném čase.
+- **Výkon:** Dotazy, které musí kombinovat data z různých systémů, mohou být pomalejší kvůli potřebě agregovat a synchronizovat výsledky.
+
+#### 2. Příklad multi-model dotazu a možných problémů
+
+**Příklad multi-model dotazu:**
+- **Scénář:** Představme si, že máme multi-model databázi, která kombinuje relační data (např. tabulky s údaji o zákaznících) a dokumentová data (např. JSON dokumenty obsahující detaily o objednávkách).
+- **Dotaz:** Chceme získat seznam zákazníků, kteří udělali objednávky v posledních 30 dnech, kde každý zákazník má informace uložené v relační tabulce a objednávky jsou uloženy v dokumentovém formátu.
+
+```sql
+SELECT c.name, o.order_id, o.total_amount
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+WHERE o.order_date >= '2024-08-01'
+```
+
+**Možné problémy:**
+- **Složitost dotazu:** Spojení relačních a dokumentových dat může vést ke složitějším dotazům, které mohou být obtížnější na optimalizaci.
+- **Výkon:** Výkon dotazu může být snížen kvůli nutnosti kombinovat různé datové modely, které mají odlišné charakteristiky a způsob ukládání dat.
+- **Optimalizace:** Optimalizace takových dotazů může vyžadovat specifické nastavení indexů nebo dokonce změny v dotazovacím engine, aby bylo dosaženo rozumného výkonu.
+
+### Shrnutí
+
+- **Multi-model databáze** poskytují jednotné prostředí pro různé datové modely v rámci jednoho systému, což zvyšuje flexibilitu, ale také složitost správy a optimalizace.
+- **Polystore** umožňuje využívat výhody specializovaných databázových systémů, ale za cenu zvýšené složitosti integrace a potenciálních problémů s výkonem při dotazech napříč systémy.
+
+Obě technologie mají své specifické výhody a nevýhody, a jejich volba závisí na konkrétních potřebách aplikace, škálovatelnosti, a požadavcích na výkon.
