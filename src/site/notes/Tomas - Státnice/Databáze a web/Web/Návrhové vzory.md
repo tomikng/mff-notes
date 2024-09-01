@@ -6,7 +6,7 @@
 > Vygenerováno pomocí ChatGPT
 
 Návrhové vzory (design patterns) jsou osvědčené postupy pro řešení opakujících se problémů v softwarovém vývoji. Pomáhají organizovat kód, usnadňují jeho údržbu a rozšiřitelnost a přispívají k lepšímu oddělení odpovědností v aplikaci. V případě návrhových vzorů Front Controller, MVC (Model-View-Controller), MVP (Model-View-Presenter) a MVVM (Model-View-ViewModel) se jedná o architektonické vzory, které se používají především při návrhu uživatelského rozhraní a interakce mezi různými částmi aplikace.
-
+![Pasted image 20240901143357.png](/img/user/Pasted%20image%2020240901143357.png)
 ### 1. Front Controller
 **Front Controller** je návrhový vzor, který se používá především v kontextu webových aplikací. Cílem tohoto vzoru je <mark style="background: #FFF3A3A6;">centralizovat všechny příchozí požadavky do jedné vstupní brány</mark>, která se nazývá Front Controller. Tento vzor umožňuje lepší řízení toku požadavků a odpovědí, centralizované zpracování autentizace, autorizace, správy session, logování a dalších úkolů.
 
